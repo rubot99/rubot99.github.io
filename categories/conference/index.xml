@@ -87,5 +87,131 @@
 &lt;/figure&gt;</description>
     </item>
     
+    <item>
+      <title>Red Gate Sql In The City London</title>
+      <link>https://rubot99.github.io/2012/07/red-gate-sql-in-the-city-london/</link>
+      <pubDate>Sat, 21 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2012/07/red-gate-sql-in-the-city-london/</guid>
+      <description>&lt;p&gt;Last Saturday I attended the Red Gate ‘SQL in the City’ event in London. It was one of the best free event that I have been to. The event was very well organised and had a great line up of sessions. There were three tracks of sessions DBA, Red Gate and Developer and I would have liked to attend all of them, but had to choose the ones I really wanted to attend.&lt;/p&gt;
+
+&lt;p&gt;
+Fortunately for me the great folks at Red Gate recorded all the sessions and announced that they would be made available for all the attendees.&lt;/p&gt;
+
+&lt;p&gt;The day started off with a cup of coffee in one of the best mugs ever!!! It was a mug with the top SQL Prompt snippets and I have to admit I didn’t know some of them. I am happy to report that those snippets are now being used extensively :).&lt;/p&gt;
+
+&lt;p&gt;The event was kicked off by the welcome session from Simon Galbraith (Joint CEO of Red Gate). He discussed past Red Gate products and how getting customer feedback early in the development process had a significant impact on the commercial success of the products. I guess you could sum what he said to ‘Release soon, Release Often’ equals greater chance for commercial success.&lt;/p&gt;
+
+&lt;p&gt;I stared off with ‘Top Tips for Writing Better – T-SQL stored procedures’. This session was run by Grant Fritchey (ScaryDBA.com). I was quite surprised at how making a few changes to your query could improve it’s performance. It was a really good session for anyone who writes a bit of T-SQL, especially if you are writing queries against a legacy database that wasn’t designed well :(.&lt;/p&gt;
+
+&lt;p&gt;I then attended the ‘Prepare for When disaster Strikes’, which was run by Steve Jones, Editor in Chief at SQLServerCentral.com. The session was targeted at DBAs, but as a developer the main thing I got was the importance of increasing your alert time since this gives you more time to react to a problem. I do see the benefit of this since I use Elmah in my web applications and getting a heads up before a user calls me has been extremely useful.&lt;/p&gt;
+
+&lt;p&gt;After lunch I attended ‘Deployment Horrors and How to avoid them’ by Dave Ballantyne and followed that with ‘Case Study – How we learned to stop worrying and love Continuous Integration’ by Dave Green and Annette Allen from First Databank. For the final session I thought I would try a wild card session and went to the ‘SQL Azure from Plan, to Backup, to Cloud – Red Gate Cloud-Ready Services’. This session was run by Tobiasz Koprowski and Richard Mitchell. I was really surprised how much I liked the session. It was well presented and Tobiasz and Richard did a really great job. I had the misconception of thinking that Azure was SQL server in the cloud, unfortunately there are limitation to having SQL server in the cloud and these limitation aren’t only technical and can be geographic laws. Using Azure depends on the type of application your building and the data you will be storing, some applications are better suited for Azure than others.&lt;/p&gt;
+
+&lt;p&gt;Overall it was a great event and I really enjoyed it and will definitely be looking out for the next ‘SQL in the City’ event.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/sqlPromptMug.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;SQL Prompt coffee mug&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web Fuelled Business Event</title>
+      <link>https://rubot99.github.io/2012/03/web-fuelled-business-event/</link>
+      <pubDate>Fri, 23 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2012/03/web-fuelled-business-event/</guid>
+      <description>&lt;p&gt;Yesterday I attended the Web Fuelled Business event at Castle Gate, Newcastle upon Tyne. This event was organised by the School for Startups. The speakers were Doug Richard and James Dening (click here for information on the speakers). In my opinion the event was very well organised and I did take away quite a bit from the sessions. The Castle Gate venue was a wonderful venue and the venue staffs were excellent.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The entire event was held in the Turbine Hall. I got to the venue quite early so I did get to sit up front and got some pictures of Doug and James during their sessions. I enjoyed all the session and can’t really pick out a particular session that I really liked best.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/dougrichard.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Doug Richard&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;One of the things James discussed in his session on market places was scaling your business using Amazon’s delivery system. This was something that was totally new to me. James explained that Amazon will store and ship your products that have been sold through their Marketplace. He also discussed how he uses the Amazon delivery service for products bought from his Amazon Marketplace. I couldn’t believe what an amazing service Amazon provides for its sellers.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/jamesdening.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;James Dening&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;There were certain things that were said that really caught my attention, they were
+1. An entrepreneur has to stop being an inventor and move to put things around that idea to build a business – As a software developer I can really relate to this. I often find myself excited about the technology or architecture of a system and forget about the selling of that product or service.
+2. Low prices and large selection are essential for e-commerce websites.
+3. Sacrifice short term profits for long term customer retention. – I guess ‘The Customer is still King’
+4. Being on Page 2 of a Google search result is like being in Internet Siberia – This really brings home the point how much search engines impact our browsing of the internet.
+5. The war of the click is greater than the war of price. – Reduce the barriers to your site. Too many clicks are just too much effort.
+6. Video testimonials on your website have a great impact on your customer’s selection process and are anxiety reducers. Your landing page should have anxiety reducers for your site visitors to help increase their trust in your site.
+7. Social media is the Amplification of word of mouth.
+8. Don’t create obstacles to outcomes. – This really hit home for me and I started to think about how I have created obstacles in other areas to prevent successful outcomes.
+Overall it was an excellent event and I would definitely recommend it to anyone else. Also I would definitely attend the next Web Fuelled event in Newcastle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Developer Developer, Developer Scotland 2011</title>
+      <link>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</link>
+      <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</guid>
+      <description>&lt;p&gt;Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I attended the following sessions at DDD:&lt;/p&gt;
+
+&lt;p&gt;CQRS and Friends: Possibly distributed systems, intentionally  – Andrea Magnorsky&lt;/p&gt;
+
+&lt;p&gt;This was an introductory session on CQRS/ES.&lt;/p&gt;
+
+&lt;p&gt;Caliburn.Micro: Painless MVVM apps for Silverlight and WPF – Barry Carr&lt;/p&gt;
+
+&lt;p&gt;This session was a good introduction to using Caliburn Micro with Silverlight. The step by step code demo on using Caliburn Micro was really useful and good. Caliburn Micro seems like a really cool MVVM framework and I am planning try it out on a small project.&lt;/p&gt;
+
+&lt;p&gt;Unit Testing, Test Driven Development and the Walking Skeleton – Seb Rose&lt;/p&gt;
+
+&lt;p&gt;A detailed talk explaining TDD and the pros and pit falls you might face when using TDD in your team.&lt;/p&gt;
+
+&lt;p&gt;Is your code S.O.L.I.D? – Nathan Gloyn&lt;/p&gt;
+
+&lt;p&gt;I initially was expecting this talk to be a detailed description about SOLID principles, but was pleasantly surprised to see that Nathan had code examples too.&lt;/p&gt;
+
+&lt;p&gt;Functional Alchemy: Tricks to keep your C# DRY* – Mark Rendle&lt;/p&gt;
+
+&lt;p&gt;This was another excellent session with a great code demo. One of the things Mark discussed was a try-catch functional strategy which I think I’m going to start using in my code.&lt;/p&gt;
+
+&lt;p&gt;It was a great developer event and I am tempted to go to the DDD South West event next month.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
