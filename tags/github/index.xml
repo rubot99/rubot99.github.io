@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rubot</title>
+    <link>https://rubot99.github.io/tags/github/index.xml</link>
+    <description>Recent content on rubot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://rubot99.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experiments with Blogging Platforms</title>
+      <link>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</link>
+      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</guid>
+      <description>
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/wordpressBlog.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Rubot Blog&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/hugo.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hugo Site Generator&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

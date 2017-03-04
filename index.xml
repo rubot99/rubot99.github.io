@@ -6,8 +6,44 @@
     <description>Recent content on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2017 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 16:00:00 +0000</lastBuildDate>
     <atom:link href="https://rubot99.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experiments with Blogging Platforms</title>
+      <link>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</link>
+      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</guid>
+      <description>
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/wordpressBlog.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Rubot Blog&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://rubot99.github.io/images/hugo.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hugo Site Generator&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello World Reboot</title>
@@ -713,46 +749,6 @@ At the end of my last post I couldn’t decide between Backblaze and Mozy since 
 &lt;p&gt;Just a little information on how I tested the services. I built two virtual machines and setup the two services on each machine. I would drop different file types and sizes to see how long the backup would take. Also I checked how long it took for me to be able to access the data from the website.&lt;/p&gt;
 
 &lt;p&gt;I have been using Backblaze for over a month and am very happy with the service they provide. I haven’t had any issues with browsing the internet while a backup was in progress.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Quest Personal Backup Strategy - Part 2</title>
-      <link>https://rubot99.github.io/2010/03/quest-personal-backup-strategy---part-2/</link>
-      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://rubot99.github.io/2010/03/quest-personal-backup-strategy---part-2/</guid>
-      <description>&lt;p&gt;This second post is to clarify questions I had about some of the cloud based backup solutions. I haven’t tried out Jungle Disk, since the pay as you use storage costs would be too expensive for me. Also with Jungle Disk you would need to pay for the product and the storage costs. This would be expensive for me and so haven’t investigated the service further.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;So for me personally it has come down to either Mozy or Backblaze.&lt;/p&gt;
-
-&lt;h3 id=&#34;mozy&#34;&gt;Mozy&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;User can customise the backup sets.&lt;/li&gt;
-&lt;li&gt;Mozy account can be used to backup more than one computer&lt;/li&gt;
-&lt;li&gt;If you supply a personal encryption key, the contents of your files are encrypted, but you can still view the file names from the web interface. I like using my own encryption key, but having to download a decryption utility means that I can’t easily get my data on another machine.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;backblaze&#34;&gt;Backblaze&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;I like that if you supply your personal encryption key you don’t have to use a decryption tool to retrieve your data. This makes it easy to get your data from another machine.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;I have used both products and can’t really make up mind on which one I like better. Both products have their salient features. I’ll update this post when I finally decide which product I want to go with.&lt;/p&gt;
-
-&lt;h3 id=&#34;related-links&#34;&gt;Related Links&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mozy.com/home&#34;&gt;http://mozy.com/home&lt;/a&gt;
-&lt;a href=&#34;http://www.jungledisk.com/personal/&#34;&gt;http://www.jungledisk.com/personal/&lt;/a&gt;
-&lt;a href=&#34;http://www.backblaze.com/&#34;&gt;http://www.backblaze.com/&lt;/a&gt;
-&lt;a href=&#34;http://blog.backblaze.com/2008/11/12/how-to-make-strong-encryption-easy-to-use/&#34;&gt;http://blog.backblaze.com/2008/11/12/how-to-make-strong-encryption-easy-to-use/&lt;/a&gt;
-&lt;a href=&#34;http://www.carbonite.com/&#34;&gt;http://www.carbonite.com/&lt;/a&gt;
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;https://www.dropbox.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
