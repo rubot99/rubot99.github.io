@@ -6,8 +6,23 @@
     <description>Recent content on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2017 13:30:00 +0000</lastBuildDate>
     <atom:link href="https://rubot99.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Review - Test Driven Development by Example</title>
+      <link>https://rubot99.github.io/2017/04/review---test-driven-development-by-example/</link>
+      <pubDate>Mon, 10 Apr 2017 13:30:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2017/04/review---test-driven-development-by-example/</guid>
+      <description>&lt;p&gt;Another of my new year resolutions is to read three computer science related books. So, the first book I choose was Kent Beck’s book on TDD. I would say this book is the quintessential book on test driven development. I have owned this book for quite a few years but have never gotten around to reading it. So finally, I have taken plunge and have completed reading the book 😊.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This book is under two hundred pages long and my initial impression was that it was an introductory style book for TDD. After reading the book, I’ve realised it’s a lot more. The book is divided into three sections. The first section goes through the process of building new functionality into an existing software product using the TDD method. It takes you through all the steps and shows the pitfalls you might encounter. The main purpose of the scenario is to teach you the concepts with an example that will be easy to understand. It hammers home the importance of taking small test while writing new tests and writing enough code to make your tests pass. Following the write-run-refactor mantra is important and it also shows that taking bigger code steps might actually be counterproductive in the long run. I think as developers we are often too eager to sling code but the TDD process does force you to think before you leap. The second section goes through the process of setting you environment and testing framework. The third section I found very interesting, it’s more of a reference section. I can see myself referring to that section a lot more in the future. It covers patterns and practices for TDD and refactoring and design patterns in general.&lt;/p&gt;
+
+&lt;p&gt;After reading the book I appreciate the importance of taking smaller steps in code when doing TDD. I understand the reason behind writing enough code to make your test pass, since it prevents from over engineering your problem and falling into the YAGNI trap. Overall I think this book is good to help you get into the TDD mindset.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Experiments with Blogging Platforms</title>
@@ -771,26 +786,6 @@ For for more information about binding a treelist to your business objects refer
 &lt;p&gt;After following the instructions from the two posts I got the Mercurial web interface working. However when I came to install it on a server running Windows 2008 R2 (64 bit), I couldn’t seem to get it to work. So after googling a bit I found the following post which helped me get Mercurial setup on my server.&lt;/p&gt;
 
 &lt;p&gt;Stacking Code – &lt;a href=&#34;http://stackingcode.com/blog/2011/02/24/running-a-mercurial-server-on-iis-7-5-windows-server-2008-r2&#34;&gt;Running a Mercurial Server on IIS 7.5&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>The Quest for a Personal Backup Strategy – Part 3</title>
-      <link>https://rubot99.github.io/2010/05/the-quest-for-a-personal-backup-strategy--part-3/</link>
-      <pubDate>Tue, 04 May 2010 20:00:26 +0000</pubDate>
-      
-      <guid>https://rubot99.github.io/2010/05/the-quest-for-a-personal-backup-strategy--part-3/</guid>
-      <description>&lt;p&gt;This is my final post on my personal backup strategy. In this post I am going to state which service I decided to go with.
-At the end of my last post I couldn’t decide between Backblaze and Mozy since I liked both backup services.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;They both had excellent products and I couldn’t really fault them in any area. So it finally came down to personal preference and I decided to go with Backblaze.&lt;/p&gt;
-
-&lt;p&gt;I started my free trial again and had about 13 GB backed up with the trial period. I then purchased the yearly subcription ($50). I first started to backup all important folders and used the exclusion list to avoid backing up certain folders. After that I backed up the rest of my data, I now have a total of 20 GB backed up on Backblaze.&lt;/p&gt;
-
-&lt;p&gt;Just a little information on how I tested the services. I built two virtual machines and setup the two services on each machine. I would drop different file types and sizes to see how long the backup would take. Also I checked how long it took for me to be able to access the data from the website.&lt;/p&gt;
-
-&lt;p&gt;I have been using Backblaze for over a month and am very happy with the service they provide. I haven’t had any issues with browsing the internet while a backup was in progress.&lt;/p&gt;</description>
     </item>
     
   </channel>
