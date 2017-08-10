@@ -1,5 +1,9 @@
 
 
+  
+    
+  
+
 
   
 
@@ -16,25 +20,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.17">
-    <title>Development</title>
+    <title>Review - Refactoring - Improving the design of existing code - Part 2</title>
     <meta name="author" content="Reuben">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="refactoring, development, software, book">
 
     <link rel="icon" href="https://rubot99.github.io/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://rubot99.github.io/tags/development/index.xml">
-    
 
     
-    <meta name="description" content="thoughts from a c# software developer">
-    <meta property="og:description" content="thoughts from a c# software developer">
+    <meta name="description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+
+
+">
+    <meta property="og:description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+
+
+">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Development">
-    <meta property="og:url" content="/tags/development/">
+    <meta property="og:title" content="Review - Refactoring - Improving the design of existing code - Part 2">
+    <meta property="og:url" content="/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/">
     <meta property="og:site_name" content="rubot">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="rubot">
-    <meta name="twitter:description" content="thoughts from a c# software developer">
+    <meta name="twitter:description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+
+
+">
     
     
 
@@ -68,7 +100,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://rubot99.github.io/">rubot</a>
@@ -88,7 +120,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -204,43 +236,25 @@
 </nav>
 
       
-        
 
-      
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
-        
-          <section class="postShorten-group main-content-wrap">
-            
-            
-              
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
   
-    
+    <h1 class="post-title" itemprop="headline">
+      Review - Refactoring - Improving the design of existing code - Part 2
+    </h1>
+  
+  <div class="postShorten-meta post-meta">
+  
+    <time itemprop="datePublished" datetime="2017-08-10T21:30:00Z">
       
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/">
-          Using DevExpress ASP.Net Spin Editor Control
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2011-08-02T00:00:00Z">
-      
-  August 2, 2011
+  August 10, 2017
 
     </time>
   
@@ -249,232 +263,142 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://rubot99.github.io/categories/development">development</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/code">code</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/c">c#</a>
+      <a class="category-link" href="https://rubot99.github.io/categories/books">books</a>
     
   
 
 
 </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
-I know on the face of it does not seem revolutionary, but a few things I like about the control are:</p>
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h3 id="chapter-2">Chapter 2</h3>
 
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
+<h3 id="goals-of-refactoring">Goals of refactoring</h3>
 
+<ul>
+<li><p>Refactoring code makes a code base easier to understand and modify.</p></li>
+
+<li><p>Refactoring does not change observable the observable behaviour of the software.</p></li>
+</ul>
+
+<p></p>
+
+<h3 id="refactoring-improves-design">Refactoring improves design</h3>
+
+<ul>
+<li><p>Poorly designed code adds complexity and increase the number of lines of code required to achieve the same functionality. An important aspect of improving design is to eliminate duplicate code. Reducing the number of lines of code helps in future modification.</p></li>
+
+<li><p>Code should easily communicate its purpose.</p></li>
+
+<li><p>Refactoring helps achieve robust and scalable code</p></li>
+
+<li><p>Good design is vital for agile and fast software development. Teams can progress with a poorly designed code base for a period but eventually it catches up to the team and slows them down</p></li>
+
+<li><p>Refactoring should be done in short bursts instead of large chunks. Follow the boy scout rule and leave code that you have touched in a better state.</p></li>
+</ul>
+
+<h3 id="refactoring-problem-areas">Refactoring problem areas</h3>
+
+<ul>
+<li><p>Databases are often difficult to refactor without causing major outages for a business or without writing extra code to work around refactored areas so to maintain existing behaviour.</p></li>
+
+<li><p>Poorly designed interfaces are difficult to change, since the team might not have access to all code bases that implement the interface.</p></li>
+</ul>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
             
               
-  
-    
-      
-        
-      
-    
-  
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io//tags/book-review/">book-review</a>
 
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io//tags/development/">development</a>
 
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/">
-          Using Devexpress Winforms Treelist Control
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2011-07-09T00:00:00Z">
-      
-  July 9, 2011
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/development">development</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/code">code</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/c">c#</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        I have been using the DevExpress WinForms &amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.</p>
-
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
-            
+                  </div>
+                
               
-  
-    
-      
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/">
-          Developer Developer, Developer Scotland 2011
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2011-05-08T00:00:00Z">
-      
-  May 8, 2011
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/conference">conference</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/development">development</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.</p>
-
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
             
-              
-  
-    
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
       
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/">
-          Setting Up Mercurial Dev Shop
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2011-04-20T00:00:00Z">
-      
-  April 20, 2011
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/development">development</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/source-control">source control</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.</p>
-
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
-            
-            
-  <div class="pagination-bar">
-    <ul class="pagination">
-      
-        <li class="pagination-prev">
-          <a class="btn btn--default btn--small" href="https://rubot99.github.io/tags/development/">
-            <i class="fa fa-angle-left text-base icon-mr"></i>
-            <span>NEWER POSTS</span>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 1">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+            <i class="fa fa-angle-right"></i>
           </a>
         </li>
       
-      
-      <li class="pagination-number">page 2 of 2</li>
     </ul>
-  </div>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
 
-          </section>
-        
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2017 Reuben. All Rights Reserved
@@ -482,6 +406,92 @@ I know on the face of it does not seem revolutionary, but a few things I like ab
 </footer>
 
       </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 1">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-2%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
     </div>
     
     <div id="about">
@@ -780,6 +790,32 @@ $(document).ready(function() {
   });
 });
 </script>
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/rubot99.github.io\/2017\/08\/review---refactoring---improving-the-design-of-existing-code---part-2\/';
+          
+            this.page.identifier = '\/2017\/08\/review---refactoring---improving-the-design-of-existing-code---part-2\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
 
 
     

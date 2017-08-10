@@ -9,11 +9,52 @@
     <atom:link href="https://rubot99.github.io/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Review - Refactoring - Improving the design of existing code -Part 1</title>
-      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code--part-1/</link>
+      <title>Review - Refactoring - Improving the design of existing code - Part 2</title>
+      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/</link>
+      <pubDate>Thu, 10 Aug 2017 21:30:00 +0000</pubDate>
+      
+      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/</guid>
+      <description>&lt;h3 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h3&gt;
+
+&lt;h3 id=&#34;goals-of-refactoring&#34;&gt;Goals of refactoring&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Refactoring code makes a code base easier to understand and modify.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Refactoring does not change observable the observable behaviour of the software.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;refactoring-improves-design&#34;&gt;Refactoring improves design&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Poorly designed code adds complexity and increase the number of lines of code required to achieve the same functionality. An important aspect of improving design is to eliminate duplicate code. Reducing the number of lines of code helps in future modification.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code should easily communicate its purpose.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Refactoring helps achieve robust and scalable code&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Good design is vital for agile and fast software development. Teams can progress with a poorly designed code base for a period but eventually it catches up to the team and slows them down&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Refactoring should be done in short bursts instead of large chunks. Follow the boy scout rule and leave code that you have touched in a better state.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;refactoring-problem-areas&#34;&gt;Refactoring problem areas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Databases are often difficult to refactor without causing major outages for a business or without writing extra code to work around refactored areas so to maintain existing behaviour.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Poorly designed interfaces are difficult to change, since the team might not have access to all code bases that implement the interface.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Review - Refactoring - Improving the design of existing code - Part 1</title>
+      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/</link>
       <pubDate>Thu, 10 Aug 2017 20:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code--part-1/</guid>
+      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/</guid>
       <description>&lt;p&gt;I’m an avid listener of the CodingBlocks.Net podcasts and it’s been one of my go to podcasts for software development. I have especially enjoyed the podcasts where the presenters reviewed the Clean Code book by having a podcast per chapter where they discussed their individual thoughts. So I thought I would follow their idea and write blogs posts reviewing Martin Fowler’s book on Refactoring. This year I wanted to read a few software development books and write a few posts, so what better way to merge my two goals reading the book and writing posts for the sections/chapters 😉&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
