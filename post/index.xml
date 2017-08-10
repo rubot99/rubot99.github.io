@@ -10,11 +10,11 @@
     <atom:link href="https://rubot99.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Review - Refactoring - Improving the design of existing code</title>
-      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code/</link>
+      <title>Review - Refactoring - Improving the design of existing code -Part 1</title>
+      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code--part-1/</link>
       <pubDate>Thu, 10 Aug 2017 20:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code/</guid>
+      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code--part-1/</guid>
       <description>&lt;p&gt;I’m an avid listener of the CodingBlocks.Net podcasts and it’s been one of my go to podcasts for software development. I have especially enjoyed the podcasts where the presenters reviewed the Clean Code book by having a podcast per chapter where they discussed their individual thoughts. So I thought I would follow their idea and write blogs posts reviewing Martin Fowler’s book on Refactoring. This year I wanted to read a few software development books and write a few posts, so what better way to merge my two goals reading the book and writing posts for the sections/chapters 😉&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
