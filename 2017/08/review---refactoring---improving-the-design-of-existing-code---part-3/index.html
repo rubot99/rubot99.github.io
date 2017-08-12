@@ -1,5 +1,9 @@
 
 
+  
+    
+  
+
 
   
 
@@ -16,25 +20,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.17">
-    <title>Blogging</title>
+    <title>Review - Refactoring - Improving the design of existing code - Part 3</title>
     <meta name="author" content="Reuben">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="refactoring, development, software, book">
 
     <link rel="icon" href="https://rubot99.github.io/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://rubot99.github.io/tags/blogging/index.xml">
-    
 
     
-    <meta name="description" content="thoughts from a c# software developer">
-    <meta property="og:description" content="thoughts from a c# software developer">
+    <meta name="description" content="Chapter 3
+
+This chapter is all about various code smells and how we can try to identify them.
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.
+
+">
+    <meta property="og:description" content="Chapter 3
+
+This chapter is all about various code smells and how we can try to identify them.
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.
+
+">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Blogging">
-    <meta property="og:url" content="/tags/blogging/">
+    <meta property="og:title" content="Review - Refactoring - Improving the design of existing code - Part 3">
+    <meta property="og:url" content="/2017/08/review---refactoring---improving-the-design-of-existing-code---part-3/">
     <meta property="og:site_name" content="rubot">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="rubot">
-    <meta name="twitter:description" content="thoughts from a c# software developer">
+    <meta name="twitter:description" content="Chapter 3
+
+This chapter is all about various code smells and how we can try to identify them.
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.
+
+">
     
     
 
@@ -68,7 +85,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://rubot99.github.io/">rubot</a>
@@ -88,7 +105,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -204,43 +221,25 @@
 </nav>
 
       
-        
 
-      
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
-        
-          <section class="postShorten-group main-content-wrap">
-            
-            
-              
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
   
-    
+    <h1 class="post-title" itemprop="headline">
+      Review - Refactoring - Improving the design of existing code - Part 3
+    </h1>
+  
+  <div class="postShorten-meta post-meta">
+  
+    <time itemprop="datePublished" datetime="2017-08-12T21:00:00Z">
       
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/">
-          Experiments with Blogging Platforms
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-03-04T16:00:00Z">
-      
-  March 4, 2017
+  August 12, 2017
 
     </time>
   
@@ -249,100 +248,120 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://rubot99.github.io/categories/blogging">blogging</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/github">github</a>, 
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/hugo">hugo</a>
+      <a class="category-link" href="https://rubot99.github.io/categories/books">books</a>
     
   
 
 
 </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        When I first decided to blog, I investigated a few platforms. I wanted something that allowed me to</p>
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h3 id="chapter-3">Chapter 3</h3>
 
-<ul>
-<li>Create posts easily</li>
-<li>Flexibility with theme and other advanced features</li>
-<li>Low cost/Free</li>
-</ul>
+<p>This chapter is all about various code smells and how we can try to identify them.
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.</p>
 
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
+<p></p>
+
+<p>Switch statements are another code smell. Switch statements often have a lot of duplicated code. Use polymorphism to replace switch statements.
+Long methods are another code smell. Long methods make it difficult to understand the purpose of the code. Long methods always end up doing more than one thing, methods should have one responsibility (SRP). This makes it easier to understand the code and modify in the future. Good naming of methods helps a reader understand the purpose of the method. Modern languages have eliminated the overhead of in process calls, allowing smaller methods without effecting performance. Another good rule of thumb is that blocks of code that need comments are ideal candidates for decomposing into smaller methods. Large classes should also be decomposed into sub classes or extracted into other classes. Methods with long parameter lists should be reduced for readability by using objects instead.
+So far we have mentioned splitting classes and methods, but sometimes you will need to merge classes and methods. This will help to bring methods that have similar purposes to be together, making it easier to modify and understand.
+If there are classes that only pass information from one class to a client, then it might be worth removing the middleman class. Remove unwanted abstraction that is not required. Temporary fields are also another form of code smell and make code to be difficult to debug and modify. Data model class might be considered also as code smells. Poor inheritance is a code smell this is where class inherits behaviours from a super class that it does not require. Classes that overly use another classes private methods and variable is a break of the encapsulation rule. Finally comments can be a code smell, instead of simplifying complex code the use of comments is a way to allow the reader to understand it better. Often code is modified but the comments aren’t which will causes further complications for the reader.</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io//tags/book-review/">book-review</a>
+
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io//tags/development/">development</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 2">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
 
             
               
-  
-    
-      
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://rubot99.github.io/2017/03/hello-world-reboot/">
-          Hello World Reboot
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-03-01T17:30:00Z">
-      
-  March 1, 2017
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://rubot99.github.io/categories/blogging">blogging</a>
-    
-  
-
-
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        It’s been about 4 years since I last blogged, stuff has got in the way and I have just not been bothered. Anyway this year I want to start blogging again – a hello world reboot ;).</p>
-
-<p>
-        <br>
-        <a href="https://rubot99.github.io/2017/03/hello-world-reboot/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
+              
             
-            
-
-          </section>
-        
+          </div>
+        </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2017 Reuben. All Rights Reserved
@@ -350,6 +369,92 @@
 </footer>
 
       </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 2">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2frubot99.github.io%2f2017%2f08%2freview---refactoring---improving-the-design-of-existing-code---part-3%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
     </div>
     
     <div id="about">
@@ -651,6 +756,32 @@ $(document).ready(function() {
   });
 });
 </script>
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/rubot99.github.io\/2017\/08\/review---refactoring---improving-the-design-of-existing-code---part-3\/';
+          
+            this.page.identifier = '\/2017\/08\/review---refactoring---improving-the-design-of-existing-code---part-3\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
 
 
     
