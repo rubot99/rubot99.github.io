@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rubot</title>
-    <link>https://rubot99.github.io/categories/photography/index.xml</link>
-    <description>Recent content on rubot</description>
+    <title>photography on rubot</title>
+    <link>https://rubot99.github.io/categories/photography/</link>
+    <description>Recent content in photography on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://rubot99.github.io/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubot99.github.io/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Things I Like About Instagram Hipstamatic</title>
@@ -16,30 +19,7 @@
       <guid>https://rubot99.github.io/2011/07/things-i-like-about-instagram-hipstamatic/</guid>
       <description>&lt;p&gt;In the last couple of months I have been getting into iPhone photography or as it is more popularly known as iPhoneography.
 I started out by using Instagram and have now graduated to using both Instagram and Hipstamatic.
-At first glance I thought these apps were similar and favoured Instagram because of its ease of use.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;However on further examination of Hipstamatic I realised that these apps are for different scenarios.&lt;/p&gt;
-
-&lt;h3 id=&#34;things-i-like-about-instagram&#34;&gt;Things I like about Instagram&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Adding a picture to your Instagram feed is quick and easy.&lt;/li&gt;
-&lt;li&gt;Ability to process pictures taken previously or with another camera.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;things-i-like-about-hipstamatic&#34;&gt;Things I like about Hipstamatic&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Large number of lens, film and flash options which provide a variety of effects.&lt;/li&gt;
-&lt;li&gt;Additional lens, film and flash packs.&lt;/li&gt;
-&lt;li&gt;Ability to get hard copy prints of your pictures.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;After using both apps for sometime I have realised both apps are a must for my iphone photography kit. I like to take quick pictures with the iPhone camera app and then later review and process them with Instagram. When I have time to try different compositions, I like to use Hipstamatic as it gives me more options. Both these apps are great and I would recommend them to anyone starting out with iPhone photography.&lt;/p&gt;</description>
+At first glance I thought these apps were similar and favoured Instagram because of its ease of use.&lt;/p&gt;</description>
     </item>
     
   </channel>

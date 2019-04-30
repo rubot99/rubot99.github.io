@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rubot</title>
-    <link>https://rubot99.github.io/tags/c</link>
-    <description>Recent content on rubot</description>
+    <title>c# on rubot</title>
+    <link>https://rubot99.github.io/tags/c#/</link>
+    <description>Recent content in c# on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://rubot99.github.io/tags/c" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jul 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubot99.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Handled Unhandled Exceptions</title>
@@ -15,23 +18,7 @@
       
       <guid>https://rubot99.github.io/2012/07/handled-unhandled-exceptions/</guid>
       <description>&lt;p&gt;‘Handled Unhandled Exception’ sounds like an oxy-moron, but let me explain what I mean.
-I’m sure most developers have seen the code below at some point in their careers.
-&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-try
-{
-//code that does something
-}
-catch(Exception exc)
-{}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you think the catch section is missing some code your absolutely correct. Unfortunately I have seen this type of code quite a few times. This type of error handling is what I like to call a handled unhandled exception, the major problem here is that any unhandled exception is caught but nothing is ever done with it. It’s a nightmare to debug this kind of code because you never know whether the code returns no results or there was an exception thrown. In a real world application this code would be called by other functions which might also have the same style of exceptional handling and this turns out to be extremely difficult to debug.&lt;/p&gt;
-
-&lt;p&gt;To be honest I would prefer that the developer wouldn’t wrap the code with a try and catch or atleast re-throw the exception.
-In my opinion if you are going to handle an exception, handle them properly don’t just pseudo handle them.&lt;/p&gt;</description>
+I’m sure most developers have seen the code below at some point in their careers.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,64 +27,7 @@ In my opinion if you are going to handle an exception, handle them properly don�
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</guid>
-      <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The features that I like in the control are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Default themes&lt;/li&gt;
-&lt;li&gt;Data sorting&lt;/li&gt;
-&lt;li&gt;Data grouping&lt;/li&gt;
-&lt;li&gt;Data editing&lt;/li&gt;
-&lt;li&gt;Colum re-arrangement&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The features that I have listed are features that come straight out the box. I tend to normally bind the GridView to a list of business objects and either enable or disable the features through the control markup. I find these features really useful since I don’t need to write extra code on the application side nor do I have any additional views or stored procedures
-on the database side. I should mention that depending on what you do with data editing you make need to handle row events.&lt;/p&gt;
-
-&lt;p&gt;The features that I like the best is the data grouping functionality and the reason for this is that it allows users to group on any column they need to. The first screen shot shows the default gridview without any grouping. The second screen shot shows what happens when the user groups on one of the columns and the third screen shot shows what happens when the grouping is on two different columns.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/default3.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Devexpress Gridview Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/groupontwocolumns1.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Data Grouping example 1&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/groupononecolumn2.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Data Grouping example 2&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,35 +37,7 @@ on the database side. I should mention that depending on what you do with data e
       
       <guid>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</guid>
       <description>&lt;p&gt;The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
-I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Small and large increment buttons&lt;/li&gt;
-&lt;li&gt;Control features can be setup through markup&lt;/li&gt;
-&lt;li&gt;Control value can be retrieved as either a string or int/decimal value (this saves writing code that casts to a string or int/decimal)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Below is the markup for the spin edit control.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;dx:ASPxSpinEdit ID=&amp;quot;dxspinAmount&amp;quot; runat=&amp;quot;server&amp;quot; Height=&amp;quot;21px&amp;quot; Number=&amp;quot;0&amp;quot; NumberType=&amp;quot;Integer&amp;quot; Increment=&amp;quot;2&amp;quot; AllowNull=&amp;quot;false&amp;quot; Enabled=&amp;quot;false&amp;quot; &amp;gt;
-    &amp;lt;SpinButtons Position=&amp;quot;Left&amp;quot; ShowLargeIncrementButtons=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/SpinButtons&amp;gt;
-&amp;lt;/dx:ASPxSpinEdit&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/spinedit.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;ASP.Net Spin Editor Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -144,139 +46,7 @@ I know on the face of it does not seem revolutionary, but a few things I like ab
       <pubDate>Sat, 09 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</guid>
-      <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I needed to and when the user clicks the third level it displays relevant information to the user.
-One of the things that I found really interesting was that your business object can implement the IVirtualTreeListData interface, this will then allow you to create the hierarchical structure for your business objects and then you will be able to directly bind a list of these objects to the tree list. For my current project I did not want to implement this interface directly in my entities. I thought it would be better to define a class that only catered to the concerns related to the tree list and did not expose all the details of the entity. Below is the TreeNode class that implements the IVirtualTreeListData.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public class TreeNode : TreeList.IVirtualTreeListData
-{
- protected TreeNode parentNode;
- protected List childrenNodes = new List();
- protected string _name;
- protected int _id;&amp;lt;/code&amp;gt;
- 
- public TreeNode (TreeNode parent, string name, int id)
- {
-  this.parentNode = parent;
- 
-  _name = name;
-  _id = id;
- 
-  if(this.parentNode != null)
-  this.parentNode.childrenNodes.Add(this);
- } 
- 
- public void VirtualTreeGetCellValue(VirtualTreeGetCellValueInfo info)
- {
-  if (info.Column.AbsoluteIndex == 0)
-   info.CellData = _name;
-  else
-   info.CellData = _id;
- }
- 
- public void VirtualTreeGetChildNodes(VirtualTreeGetChildNodesInfo info)
- {
-  info.Children = childrenNodes;
- }
- 
- public void VirtualTreeSetCellValue(VirtualTreeSetCellValueInfo info)
- {
-  if (info.Column.AbsoluteIndex == 0)
-   _name = info.NewCellData.ToString();
-  else
-   _id = (int)info.NewCellData;
- }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Below is the method that populates the TreeNodes with data from your entities and binds to the treelist.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;private void SetupControls()
-{
- //This sections sets up the tree list columns. I only display the fist column to the user. The second is used to  retrieve the additional information for the user.
- TreeListColumn col1 = new TreeListColumn();
- col1.Caption = &amp;quot;Name&amp;quot;;
- col1.VisibleIndex = 0;
- TreeListColumn col2 = new TreeListColumn();
- col2.Caption = &amp;quot;Id&amp;quot;;
- col2.VisibleIndex = 1;
- col2.Visible = false;
- treeList1.Columns.AddRange(new TreeListColumn[] { col1, col2 });
- //Here we create the root node for the treelist
- TreeNode datasource = new TreeNode(null, null, 0);
- //Iterate through the list of your entities to create the level 1, level 2 and level 3 nodes for
- tree list.
- foreach (TreeBusinessObject treenode in GetNodeObjects())
- {
-  TreeNode node = new TreeNode(datasource, treenode.Node, 0);
-  TreeNode subnode = new TreeNode(node, treenode.SubNode, 0);&amp;lt;/code&amp;gt;
- 
-  foreach (var item in treenode.GetChildSubNodes())
-  {
-   TreeNode childnode = new TreeNode(subnode, item, treenode.Id);
-  }
- }
- //Bind to the tree list
- treeList1.DataSource = datasource;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I am also adding the code for my business object.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public class TreeBusinessObject
-{
- public int Id { get; set; }
- public string Node { get; set; }
- public string SubNode { get; set; }&amp;lt;/code&amp;gt;
- 
- private List childSubNode;
- 
- public TreeBusinessObject()
- {
-  childSubNode = new List();
- }
- 
- public TreeBusinessObject(int id)
- {
-  Id = id;
-  Node = String.Format(&amp;quot;Node {0}&amp;quot;, id.ToString());
-  SubNode = String.Format(&amp;quot;Sub Node {0}&amp;quot;, id.ToString());
- 
-  childSubNode = new List();
-  AddChildNode(String.Format(&amp;quot;Child A1_{0}&amp;quot;, id.ToString()));
-  AddChildNode(String.Format(&amp;quot;Child A2_{0}&amp;quot;, id.ToString()));
-  AddChildNode(String.Format(&amp;quot;Child A3_{0}&amp;quot;, id.ToString()));
- }
- 
- public void AddChildNode(string childnode)
- {
-  childSubNode.Add(childnode);
- }
- 
- public List GetChildSubNodes()
- {
-  return childSubNode;
- }
- 
- public void RemoveChildNode(string childnode)
- {
-  childSubNode.Remove(childnode);
- }
- 
- public void ClearAllChildNodes()
- {
-  childSubNode.Clear();
- }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;I really liked that your business object can implement an interface and then directly bind a list of business objects to the tree list. Initially when I was working with the control I did not realise that there was a difference between selected nodes and focused nodes, but after using the control the difference is clear. The only thing I couldn’t figure out was setting the state of the tree list i.e. whether is was expanded or collapsed.
-For for more information about binding a treelist to your business objects refer to the DevExpress documentation.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.55.4 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Reuben">
+<meta name="keywords" content="refactoring, development, software, book">
+<meta name="description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+">
+
+
+<meta property="og:description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Review - Refactoring - Improving the design of existing code - Part 2">
+<meta name="twitter:title" content="Review - Refactoring - Improving the design of existing code - Part 2">
+<meta property="og:url" content="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/">
+<meta property="twitter:url" content="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/">
+<meta property="og:site_name" content="rubot">
+<meta property="og:description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+">
+<meta name="twitter:description" content="Chapter 2
+
+Goals of refactoring
+
+
+Refactoring code makes a code base easier to understand and modify.
+
+Refactoring does not change observable the observable behaviour of the software.
+">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2017-08-10T21:30:00">
+  
+  
+    <meta property="article:modified_time" content="2017-08-10T21:30:00">
+  
+  
+  
+    
+      <meta property="article:section" content="books">
+    
+  
+  
+    
+      <meta property="article:tag" content="book-review">
+    
+      <meta property="article:tag" content="development">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://rubot99.github.io/images/profile.png">
+  <meta property="twitter:image" content="https://rubot99.github.io/images/profile.png">
+
+
+    <title>Review - Refactoring - Improving the design of existing code - Part 2</title>
+
+    <link rel="icon" href="https://rubot99.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://rubot99.github.io/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://rubot99.github.io/">rubot</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://rubot99.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://rubot99.github.io/images/profile.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://rubot99.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://rubot99.github.io/images/profile.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Reuben</h4>
+        
+          <h5 class="sidebar-profile-bio">Software developer, Technology geek &amp; Gadget lover. I love all things technology and computer related</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/rubot99" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.instagram.com/rubot99/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-instagram"></i>
+      
+      <span class="sidebar-button-desc">Instagram</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/rubot99" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://rubot99.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Review - Refactoring - Improving the design of existing code - Part 2
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2017-08-10T21:30:00Z">
+        
+  August 10, 2017
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://rubot99.github.io/categories/books">books</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h3 id="chapter-2">Chapter 2</h3>
+
+<h3 id="goals-of-refactoring">Goals of refactoring</h3>
+
+<ul>
+<li><p>Refactoring code makes a code base easier to understand and modify.</p></li>
+
+<li><p>Refactoring does not change observable the observable behaviour of the software.</p></li>
+</ul>
+
+<h3 id="refactoring-improves-design">Refactoring improves design</h3>
+
+<ul>
+<li><p>Poorly designed code adds complexity and increase the number of lines of code required to achieve the same functionality. An important aspect of improving design is to eliminate duplicate code. Reducing the number of lines of code helps in future modification.</p></li>
+
+<li><p>Code should easily communicate its purpose.</p></li>
+
+<li><p>Refactoring helps achieve robust and scalable code</p></li>
+
+<li><p>Good design is vital for agile and fast software development. Teams can progress with a poorly designed code base for a period but eventually it catches up to the team and slows them down</p></li>
+
+<li><p>Refactoring should be done in short bursts instead of large chunks. Follow the boy scout rule and leave code that you have touched in a better state.</p></li>
+</ul>
+
+<h3 id="refactoring-problem-areas">Refactoring problem areas</h3>
+
+<ul>
+<li><p>Databases are often difficult to refactor without causing major outages for a business or without writing extra code to work around refactored areas so to maintain existing behaviour.</p></li>
+
+<li><p>Poorly designed interfaces are difficult to change, since the team might not have access to all code bases that implement the interface.</p></li>
+</ul>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io/tags/book-review/">book-review</a>
+
+  <a class="tag tag--primary tag--small" href="https://rubot99.github.io/tags/development/">development</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 3">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Reuben. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 3">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/" data-tooltip="Review - Refactoring - Improving the design of existing code - Part 1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://rubot99.github.io/images/profile.png" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Reuben</h4>
+    
+      <div id="about-card-bio">Software developer, Technology geek &amp; Gadget lover. I love all things technology and computer related</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Software Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        UK
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/09/review-soft-skills-the-software-developers-life-manual/">
+                <h3 class="media-heading">Review - Soft Skills - The software developer&#39;s life manual</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p><strong>&lsquo;Soft Skills: The Software Developer&rsquo;s Life Manual&rsquo;</strong> is a book written by John Somnez, I first heard of John on the Dot Net Rocks podcast. After that I started to following his fitness podcast Get UP and Code. Nowadays I mainly follow him on his YouTube channel ‘Simple Programmer’.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/09/review-the-phoenix-project/">
+                <h3 class="media-heading">Review - The Phoenix Project</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p><strong>‘The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win’</strong> is a book about common situations you face working on software projects. The book teaches concepts and ideas through story form, it is very similar to books like the ‘One minute manager’ and ‘The richest man in Babylon’. I’ve read both these books and enjoyed how the simple truths and ideas are very cleverly conveyed through the story.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/08/review-art-of-discarding/">
+                <h3 class="media-heading">Review - Art of Discarding</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>The art of discarding is about mainly changing our mind set so that we have a positive attitude towards discarding items that we don’t use. The book goes through attitudes and strategies to discard items by giving different scenarios and how to overcome them.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/">
+                <h3 class="media-heading">Review - Refactoring - Improving the design of existing code - Part 3</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h3 id="chapter-3">Chapter 3</h3>
+
+<p>This chapter is all about various code smells and how we can try to identify them.
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/">
+                <h3 class="media-heading">Review - Refactoring - Improving the design of existing code - Part 2</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h3 id="chapter-2">Chapter 2</h3>
+
+<h3 id="goals-of-refactoring">Goals of refactoring</h3>
+
+<ul>
+<li><p>Refactoring code makes a code base easier to understand and modify.</p></li>
+
+<li><p>Refactoring does not change observable the observable behaviour of the software.</p></li>
+</ul></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/">
+                <h3 class="media-heading">Review - Refactoring - Improving the design of existing code - Part 1</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>I’m an avid listener of the CodingBlocks.Net podcasts and it’s been one of my go to podcasts for software development. I have especially enjoyed the podcasts where the presenters reviewed the Clean Code book by having a podcast per chapter where they discussed their individual thoughts. So I thought I would follow their idea and write blogs posts reviewing Martin Fowler’s book on Refactoring. This year I wanted to read a few software development books and write a few posts, so what better way to merge my two goals reading the book and writing posts for the sections/chapters 😉</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/04/review-test-driven-development-by-example/">
+                <h3 class="media-heading">Review - Test Driven Development by Example</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Another of my new year resolutions is to read three computer science related books. So, the first book I choose was Kent Beck’s book on TDD. I would say this book is the quintessential book on test driven development. I have owned this book for quite a few years but have never gotten around to reading it. So finally, I have taken plunge and have completed reading the book 😊.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/">
+                <h3 class="media-heading">Experiments with Blogging Platforms</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>When I first decided to blog, I investigated a few platforms. I wanted something that allowed me to</p>
+
+<ul>
+<li>Create posts easily</li>
+<li>Flexibility with theme and other advanced features</li>
+<li>Low cost/Free</li>
+</ul></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2017/03/hello-world-reboot/">
+                <h3 class="media-heading">Hello World Reboot</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>It’s been about 4 years since I last blogged, stuff has got in the way and I have just not been bothered. Anyway this year I want to start blogging again – a hello world reboot ;).</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://rubot99.github.io/2012/10/ddd-north-2012/">
+                <h3 class="media-heading">Ddd North 2012</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2012
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Last Saturday I attended the DDD North 2 event at Bradford Business School. It was another excellent event. As usual it was well organised and with an excellent line up of talks. This was my third DDD event so far and I thoroughly enjoyed it. I have to admit I wasn’t sure if I wanted to go this year since I didn’t think I would be interested in many of the talk, but I’m glad I did go since some of the talks that I thought I wouldn’t be interested were really useful and interesting.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         24 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://rubot99.github.io/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://rubot99.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/rubot99.github.io\/2017\/08\/review-refactoring-improving-the-design-of-existing-code-part-2\/';
+          
+            this.page.identifier = '\/2017\/08\/review-refactoring-improving-the-design-of-existing-code-part-2\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

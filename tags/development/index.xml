@@ -1,133 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rubot</title>
-    <link>https://rubot99.github.io/tags/development/index.xml</link>
-    <description>Recent content on rubot</description>
+    <title>development on rubot</title>
+    <link>https://rubot99.github.io/tags/development/</link>
+    <description>Recent content in development on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://rubot99.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2017 17:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubot99.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Review - The Phoenix Project</title>
-      <link>https://rubot99.github.io/2017/09/review---the-phoenix-project/</link>
+      <link>https://rubot99.github.io/2017/09/review-the-phoenix-project/</link>
       <pubDate>Sun, 10 Sep 2017 17:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/09/review---the-phoenix-project/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;‘The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win’&lt;/strong&gt; is a book about common situations you face working on software projects. The book teaches concepts and ideas through story form, it is very similar to books like the ‘One minute manager’ and ‘The richest man in Babylon’. I’ve read both these books and enjoyed how the simple truths and ideas are very cleverly conveyed through the story.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The book starts with a story of a fictitious company that is a market leader in their field, however in the last couple of years their competitors have been over taking them. The company has a new software project that will help them regain their pole position, but due to development issues they have been unable to deliver the product. In the book, we follow the acting CIO and problems he faces taking up this new role.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-first-part-of-the-book-discusses-issues&#34;&gt;The first part of the book discusses issues&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lack of communication between development, infrastructure and testing&lt;/li&gt;
-&lt;li&gt;Poor estimates for work&lt;/li&gt;
-&lt;li&gt;Poor software processes&lt;/li&gt;
-&lt;li&gt;No change request process or change authorisation process&lt;/li&gt;
-&lt;li&gt;No priority for tasks and a lack of a complete task list&lt;/li&gt;
-&lt;li&gt;Work politics - issues with Senior management and other teams&lt;/li&gt;
-&lt;li&gt;The latest technology won’t fix process issues&lt;/li&gt;
-&lt;li&gt;Caught in the cycle of delivering features without considering risks&lt;/li&gt;
-&lt;li&gt;All tasks cannot have the highest priority&lt;/li&gt;
-&lt;li&gt;Problem with always being in firefighting mode&lt;/li&gt;
-&lt;li&gt;Different types of work i.e. Business projects, Internal projects, Change request and unplanned&lt;/li&gt;
-&lt;li&gt;Unplanned work is the most destructive type of work, often considered anti-work&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;second-half-of-the-book-discusses-concepts-and-ideas&#34;&gt;Second half of the book discusses concepts and ideas&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You can&amp;rsquo;t sort the strategic until you sort the tactical&lt;/li&gt;
-&lt;li&gt;Having transparency is good but allowing generals access to every private can have a detrimental effect on the war effort.&lt;/li&gt;
-&lt;li&gt;Having a proper and planned change request process is very important&lt;/li&gt;
-&lt;li&gt;Implementing work tracking is important&lt;/li&gt;
-&lt;li&gt;Finding your bottlenecks will help you have a steady flow of work and also planning work order and priority&lt;/li&gt;
-&lt;li&gt;Outsource work but not responsibility&lt;/li&gt;
-&lt;li&gt;IT is a core of the business not a cost centre&lt;/li&gt;
-&lt;li&gt;Technical debt that is not paid down, compounds interest in the long run in the form on unplanned work&lt;/li&gt;
-&lt;li&gt;Reduced deployment times helps increase the number of deployments&lt;/li&gt;
-&lt;li&gt;Removing human interventions during deployment ensure that we can consistency reproduce deployments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;the-book-concludes-with-the-team-implementing&#34;&gt;The book concludes with the team implementing&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Planned and approved change request process&lt;/li&gt;
-&lt;li&gt;Implementation of Agile and Kanban&lt;/li&gt;
-&lt;li&gt;Increased communication and transparency between teams&lt;/li&gt;
-&lt;li&gt;Removal of knowledge bottlenecks through knowledge based systems&lt;/li&gt;
-&lt;li&gt;Automated deployments&lt;/li&gt;
-&lt;li&gt;Move to cloud based systems&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://rubot99.github.io/2017/09/review-the-phoenix-project/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;‘The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win’&lt;/strong&gt; is a book about common situations you face working on software projects. The book teaches concepts and ideas through story form, it is very similar to books like the ‘One minute manager’ and ‘The richest man in Babylon’. I’ve read both these books and enjoyed how the simple truths and ideas are very cleverly conveyed through the story.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Review - Art of Discarding</title>
-      <link>https://rubot99.github.io/2017/08/review---art-of-discarding/</link>
+      <link>https://rubot99.github.io/2017/08/review-art-of-discarding/</link>
       <pubDate>Thu, 31 Aug 2017 17:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---art-of-discarding/</guid>
-      <description>&lt;p&gt;The art of discarding is about mainly changing our mind set so that we have a positive attitude towards discarding items that we don’t use. The book goes through attitudes and strategies to discard items by giving different scenarios and how to overcome them.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The first part of the book discusses the Japanese concept of Mottani, which the shame associated with wastefulness. In the past things were precious people looked after and used their possessions. Often after an item lost it’s purpose, people tended to find new ways of re-purposing it’s purpose.
-However today there has been a switch from an era were things were precious to a point where everything is in abundance. With the market being flooded with new things, we have changed to view that new is always better. We are drowning in stuff because we are not buying possessions because we need them but because we want them. We are buying more stuff but because of our in grained view of Mottani, we are not discarding things as fast as we are buying them. We need a positive attitude to discarding, instead of thinking of discarding as wastefulness, we need to look at it as a way of assessing the value of things. We must not fall into the trap of thinking that not throwing something away is that same as looking after it. We need to remember that ‘Keep things you use and discard things you don’t’. The best way to cherish something is to use it.&lt;/p&gt;
-
-&lt;h3 id=&#34;attitudes-that-prevent-us-from-discarding&#34;&gt;Attitudes that prevent us from discarding&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Don’t keep items for now - Discard it right away because you will end getting rid of things in the end&lt;/li&gt;
-&lt;li&gt;Avoid temporary storage because those places tend to become permanent&lt;/li&gt;
-&lt;li&gt;Some time never comes - items like clothes are kept because some time you could use it&lt;/li&gt;
-&lt;li&gt;Buying things for convenience&lt;/li&gt;
-&lt;li&gt;Nothing is sacred - If you own an item, you should use it, if you don’t use it then don’t have it.&lt;/li&gt;
-&lt;li&gt;Storage and organisational methods are not the solution to discarding items&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;strategies-to-help-in-dicarding&#34;&gt;Strategies to help in dicarding&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When something catches your attention ask your self can you get rid of it.&lt;/li&gt;
-&lt;li&gt;Discard things as soon as you receive them - Don&amp;rsquo;t keep them to discard later&lt;/li&gt;
-&lt;li&gt;Give away things you don’t need to someone who will want and appreciate it&lt;/li&gt;
-&lt;li&gt;When you have excess of a certain item, get rid of it&lt;/li&gt;
-&lt;li&gt;Discard items when you have not used them after a period of time&lt;/li&gt;
-&lt;li&gt;Limit the space you have for items&lt;/li&gt;
-&lt;li&gt;If you have not completely used something get rid of it&lt;/li&gt;
-&lt;li&gt;Set criteria for disposal and do not give any item special exemptions&lt;/li&gt;
-&lt;li&gt;Assign responsibility for disposal of an area or items to particular person&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>https://rubot99.github.io/2017/08/review-art-of-discarding/</guid>
+      <description>&lt;p&gt;The art of discarding is about mainly changing our mind set so that we have a positive attitude towards discarding items that we don’t use. The book goes through attitudes and strategies to discard items by giving different scenarios and how to overcome them.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Review - Refactoring - Improving the design of existing code - Part 3</title>
-      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-3/</link>
+      <link>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/</link>
       <pubDate>Sat, 12 Aug 2017 21:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-3/</guid>
+      <guid>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/</guid>
       <description>&lt;h3 id=&#34;chapter-3&#34;&gt;Chapter 3&lt;/h3&gt;
 
 &lt;p&gt;This chapter is all about various code smells and how we can try to identify them.
-The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Switch statements are another code smell. Switch statements often have a lot of duplicated code. Use polymorphism to replace switch statements.
-Long methods are another code smell. Long methods make it difficult to understand the purpose of the code. Long methods always end up doing more than one thing, methods should have one responsibility (SRP). This makes it easier to understand the code and modify in the future. Good naming of methods helps a reader understand the purpose of the method. Modern languages have eliminated the overhead of in process calls, allowing smaller methods without effecting performance. Another good rule of thumb is that blocks of code that need comments are ideal candidates for decomposing into smaller methods. Large classes should also be decomposed into sub classes or extracted into other classes. Methods with long parameter lists should be reduced for readability by using objects instead.
-So far we have mentioned splitting classes and methods, but sometimes you will need to merge classes and methods. This will help to bring methods that have similar purposes to be together, making it easier to modify and understand.
-If there are classes that only pass information from one class to a client, then it might be worth removing the middleman class. Remove unwanted abstraction that is not required. Temporary fields are also another form of code smell and make code to be difficult to debug and modify. Data model class might be considered also as code smells. Poor inheritance is a code smell this is where class inherits behaviours from a super class that it does not require. Classes that overly use another classes private methods and variable is a break of the encapsulation rule. Finally comments can be a code smell, instead of simplifying complex code the use of comments is a way to allow the reader to understand it better. Often code is modified but the comments aren’t which will causes further complications for the reader.&lt;/p&gt;</description>
+The first code smell is duplicated code. Duplicated code means more places to make code changes and higher risks of bugs being added. The best way to fix this issue is to either extract the code into a new method or into a different class.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Review - Refactoring - Improving the design of existing code - Part 2</title>
-      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/</link>
+      <link>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/</link>
       <pubDate>Thu, 10 Aug 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-2/</guid>
+      <guid>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/</guid>
       <description>&lt;h3 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h3&gt;
 
 &lt;h3 id=&#34;goals-of-refactoring&#34;&gt;Goals of refactoring&lt;/h3&gt;
@@ -136,69 +55,25 @@ If there are classes that only pass information from one class to a client, then
 &lt;li&gt;&lt;p&gt;Refactoring code makes a code base easier to understand and modify.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Refactoring does not change observable the observable behaviour of the software.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;refactoring-improves-design&#34;&gt;Refactoring improves design&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Poorly designed code adds complexity and increase the number of lines of code required to achieve the same functionality. An important aspect of improving design is to eliminate duplicate code. Reducing the number of lines of code helps in future modification.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code should easily communicate its purpose.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Refactoring helps achieve robust and scalable code&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Good design is vital for agile and fast software development. Teams can progress with a poorly designed code base for a period but eventually it catches up to the team and slows them down&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Refactoring should be done in short bursts instead of large chunks. Follow the boy scout rule and leave code that you have touched in a better state.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;refactoring-problem-areas&#34;&gt;Refactoring problem areas&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Databases are often difficult to refactor without causing major outages for a business or without writing extra code to work around refactored areas so to maintain existing behaviour.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Poorly designed interfaces are difficult to change, since the team might not have access to all code bases that implement the interface.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>Review - Refactoring - Improving the design of existing code - Part 1</title>
-      <link>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/</link>
+      <link>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/</link>
       <pubDate>Thu, 10 Aug 2017 20:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/08/review---refactoring---improving-the-design-of-existing-code---part-1/</guid>
-      <description>&lt;p&gt;I’m an avid listener of the CodingBlocks.Net podcasts and it’s been one of my go to podcasts for software development. I have especially enjoyed the podcasts where the presenters reviewed the Clean Code book by having a podcast per chapter where they discussed their individual thoughts. So I thought I would follow their idea and write blogs posts reviewing Martin Fowler’s book on Refactoring. This year I wanted to read a few software development books and write a few posts, so what better way to merge my two goals reading the book and writing posts for the sections/chapters 😉&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;foreword-preface-chapter-1&#34;&gt;Foreword + Preface + Chapter 1&lt;/h3&gt;
-
-&lt;p&gt;The first section talks about the importance of designing software before you start implementation. Good design is no substitute for immediate implementation gratification. Putting coding first is a sure way of spiralling from engineering to code hacking. Poor design reduces the readability and maintainability of your code. It is said code is read and modified more frequently than it is written. Poorly designed code bases often suffer from copy and paste code rather than reusable modules. This all makes code difficult to maintain and increasing the chances of adding bugs.&lt;/p&gt;
-
-&lt;p&gt;Controlled refactoring is the way to improve an existing code base that might be poorly designed or one that has accumulated cruft over time. Refactoring is not a magic bullet but also has risks involved. Any modification to a code base has the potential to introduce bugs.&lt;/p&gt;
-
-&lt;p&gt;One preliminary step you need to take before starting any refactoring is to have a comprehensive suite of tests. This ensures that existing functionality is not broken during the refactoring.&lt;/p&gt;
-
-&lt;p&gt;The second step is to decompose things into smaller parts and to refactor. It is difficult to refactor large parts but is more manageable to refactor smaller parts.&lt;/p&gt;
-
-&lt;p&gt;Renaming functions and variables are an important step. Good code should communicate its intent without the need of extra documentation. Readable code might initially seem less performant, but in the long run it will be easier to change.&lt;/p&gt;</description>
+      <guid>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/</guid>
+      <description>&lt;p&gt;I’m an avid listener of the CodingBlocks.Net podcasts and it’s been one of my go to podcasts for software development. I have especially enjoyed the podcasts where the presenters reviewed the Clean Code book by having a podcast per chapter where they discussed their individual thoughts. So I thought I would follow their idea and write blogs posts reviewing Martin Fowler’s book on Refactoring. This year I wanted to read a few software development books and write a few posts, so what better way to merge my two goals reading the book and writing posts for the sections/chapters 😉&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Review - Test Driven Development by Example</title>
-      <link>https://rubot99.github.io/2017/04/review---test-driven-development-by-example/</link>
+      <link>https://rubot99.github.io/2017/04/review-test-driven-development-by-example/</link>
       <pubDate>Mon, 10 Apr 2017 13:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/04/review---test-driven-development-by-example/</guid>
-      <description>&lt;p&gt;Another of my new year resolutions is to read three computer science related books. So, the first book I choose was Kent Beck’s book on TDD. I would say this book is the quintessential book on test driven development. I have owned this book for quite a few years but have never gotten around to reading it. So finally, I have taken plunge and have completed reading the book 😊.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;This book is under two hundred pages long and my initial impression was that it was an introductory style book for TDD. After reading the book, I’ve realised it’s a lot more. The book is divided into three sections. The first section goes through the process of building new functionality into an existing software product using the TDD method. It takes you through all the steps and shows the pitfalls you might encounter. The main purpose of the scenario is to teach you the concepts with an example that will be easy to understand. It hammers home the importance of taking small test while writing new tests and writing enough code to make your tests pass. Following the write-run-refactor mantra is important and it also shows that taking bigger code steps might actually be counterproductive in the long run. I think as developers we are often too eager to sling code but the TDD process does force you to think before you leap. The second section goes through the process of setting you environment and testing framework. The third section I found very interesting, it’s more of a reference section. I can see myself referring to that section a lot more in the future. It covers patterns and practices for TDD and refactoring and design patterns in general.&lt;/p&gt;
-
-&lt;p&gt;After reading the book I appreciate the importance of taking smaller steps in code when doing TDD. I understand the reason behind writing enough code to make your test pass, since it prevents from over engineering your problem and falling into the YAGNI trap. Overall I think this book is good to help you get into the TDD mindset.&lt;/p&gt;</description>
+      <guid>https://rubot99.github.io/2017/04/review-test-driven-development-by-example/</guid>
+      <description>&lt;p&gt;Another of my new year resolutions is to read three computer science related books. So, the first book I choose was Kent Beck’s book on TDD. I would say this book is the quintessential book on test driven development. I have owned this book for quite a few years but have never gotten around to reading it. So finally, I have taken plunge and have completed reading the book 😊.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -207,77 +82,7 @@ If there are classes that only pass information from one class to a client, then
       <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2012/10/ddd-north-2012/</guid>
-      <description>&lt;p&gt;Last Saturday I attended the DDD North 2 event at Bradford Business School. It was another excellent event. As usual it was well organised and with an excellent line up of talks. This was my third DDD event so far and I thoroughly enjoyed it. I have to admit I wasn’t sure if I wanted to go this year since I didn’t think I would be interested in many of the talk, but I’m glad I did go since some of the talks that I thought I wouldn’t be interested were really useful and interesting.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/bradfordBusinessSchool.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Bradford Business School&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;It was an early start on Saturday with a few minor car troubles, which was sorted out quite quickly. I got to the event a little before registration and the venue was very nice. Once there I grabbed a coffee and scouted out the rooms where the talks were being held.&lt;/p&gt;
-
-&lt;p&gt;The sessions I finally decided on where:&lt;/p&gt;
-
-&lt;h5 id=&#34;windows-8-apps-mike-taulty&#34;&gt;‘Windows 8 Apps’ – Mike Taulty&lt;/h5&gt;
-
-&lt;p&gt;This was a very good session introducing both Windows 8 and Windows 8 app development. I really liked the touch screen Mike was using for his demos. It got me really interested in Windows 8 and WinRT app development. All I need now is to update my 5 year old PC and install Windows 8 &amp;amp; VS 2012 on it.&lt;/p&gt;
-
-&lt;h5 id=&#34;async-c-5-0-patterns-for-real-world-use-liam-westley&#34;&gt;‘Async C# 5.0 – Patterns for real world use’ – Liam Westley&lt;/h5&gt;
-
-&lt;p&gt;I have attended other talks by Liam and have always found his talks to be very interesting and the subject matter always useful. This was one of the talks I wasn’t really interested in, but was pleasantly surprised that it was one of the best talks I attended during the event. It was very interesting and as Liam was going through his demos I could see places in my own projects where I could use the Async patterns.&lt;/p&gt;
-
-&lt;h5 id=&#34;selenium-a-ui-testing-paradigm-nathan-gloyn&#34;&gt;‘Selenium a UI testing paradigm’ – Nathan Gloyn&lt;/h5&gt;
-
-&lt;p&gt;I have attended two other talks by Nathan, SOLID principle and Kanban which were both excellent talks. Since I have heard about Selenium, but never really investigated it. I thought this might be a good introduction. The talk was very good, Nathan explained how to use the Selenium IDE and WebDriver for creating automated regression tests.
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/seleniumTalk.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Selenium Talk - Nathan Gloyn&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;h5 id=&#34;web-sockets-and-signalr-building-the-real-time-interactive-web-chris-alcock&#34;&gt;‘Web Sockets and SignalR – Building the Real Time Interactive Web’ – Chris Alcock&lt;/h5&gt;
-
-&lt;p&gt;This was an interesting talk and a good introduction to the topic. I haven’t really looked a lot into web sockets which could be due to my limited javascript knowledge, however I think its something I want to investigate further. The SignalR project actually looks really good and I think I might be able to use it in a couple applications.&lt;/p&gt;
-
-&lt;h5 id=&#34;c-powershell-happy-couple-jimmy-skowronski&#34;&gt;‘C# + PowerShell = happy couple’ – Jimmy Skowronski&lt;/h5&gt;
-
-&lt;p&gt;I have been wanting to investigate and learn PowerShell , so when I saw this talk on the list I decided it would a good introduction to the subject area. Jimmy did a great job with the talk and I need to spend some time investigating PowerShell and creating power shell command in c#.&lt;/p&gt;
-
-&lt;p&gt;There was a Grok talk on OutSystems which looked really interesting and would be very useful in rapidly building/prototyping business application. I think it would be really useful in my current company since we sometime need to quickly build applications with a limited shelf life. These ‘limited shelf life’ applications tend be used for 3 -6 months and after that won’t be required. Also these application need to be built very quickly; often we may have a couple of days to deploy it. I’m going to have a look at OutSystems and LightSwitch.&lt;/p&gt;
-
-&lt;p&gt;Overall it was an excellent event and I took away a lot from the session. I am definitely going to use the Async patterns within my applications in the future and am going to look more into PowerShell and WinRT applications.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/dddNorth2012Event.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;DDD North 2012 Event Poster&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+      <description>&lt;p&gt;Last Saturday I attended the DDD North 2 event at Bradford Business School. It was another excellent event. As usual it was well organised and with an excellent line up of talks. This was my third DDD event so far and I thoroughly enjoyed it. I have to admit I wasn’t sure if I wanted to go this year since I didn’t think I would be interested in many of the talk, but I’m glad I did go since some of the talks that I thought I wouldn’t be interested were really useful and interesting.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -287,23 +92,7 @@ If there are classes that only pass information from one class to a client, then
       
       <guid>https://rubot99.github.io/2012/07/handled-unhandled-exceptions/</guid>
       <description>&lt;p&gt;‘Handled Unhandled Exception’ sounds like an oxy-moron, but let me explain what I mean.
-I’m sure most developers have seen the code below at some point in their careers.
-&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-try
-{
-//code that does something
-}
-catch(Exception exc)
-{}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you think the catch section is missing some code your absolutely correct. Unfortunately I have seen this type of code quite a few times. This type of error handling is what I like to call a handled unhandled exception, the major problem here is that any unhandled exception is caught but nothing is ever done with it. It’s a nightmare to debug this kind of code because you never know whether the code returns no results or there was an exception thrown. In a real world application this code would be called by other functions which might also have the same style of exceptional handling and this turns out to be extremely difficult to debug.&lt;/p&gt;
-
-&lt;p&gt;To be honest I would prefer that the developer wouldn’t wrap the code with a try and catch or atleast re-throw the exception.
-In my opinion if you are going to handle an exception, handle them properly don’t just pseudo handle them.&lt;/p&gt;</description>
+I’m sure most developers have seen the code below at some point in their careers.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -312,87 +101,7 @@ In my opinion if you are going to handle an exception, handle them properly don�
       <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2012/05/is-intuitive-user-interface-design-actually-subjective/</guid>
-      <description>&lt;p&gt;I have been using Microsoft Essentials as my antivirus program ever since it was released. I really like the clean and simple user interface and the small memory footprint. I also recommend it to everyone. However recently I noticed that I hadn’t run a system scan in a while and the Microsoft Essential icon had turned yellow.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;When I opened Microsoft Essentials, the main window had a large yellow ‘Scan Now’ button. Since I hadn’t run a system scan for a while, I thought I should run a full scan instead of a quick scan. So I selected full scan from the scan options and then clicked the yellow ‘Scan Now’ button. What I expected to happen now was that Microsoft Essentials would start a full system scan, however what happened was a quick scan was started. This surprised me and at first I assumed that I had made a mistake. So after investigating this for a few weeks I realised that when you click the yellow ‘Scan Now’ button it always starts a quick scan regardless of what scan option was selected.&lt;/p&gt;
-
-&lt;p&gt;Initially I thought this wasn’t intuitive, but after thinking about it more I started to wonder, if actually intuitiveness was subjective. Would another user actually expect that the application would run a quick scan when they clicked on the yellow ‘Scan Now’ button regardless of the scan option selected? Is there enough of a distinction between the regular scan now section and high priority yellow ‘Scan Now’ button to explain the difference of scan types that will be executed?&lt;/p&gt;
-
-&lt;p&gt;If I was designing this process what I would do is check the scan type selected and run that particular scan. I agree that when a system scan hasn’t been run for a long time you would want to alert the user (large yellow button) and you would want the user to run a complete system scan. Running a quick system scan makes sense since it would take less time to complete and on a psychological level there is a higher probability that the scan would complete before the user decided to cancel it. I think this could be achieved by the fact that the quick scan is selected by default in the scan options section and if the user has made the decision to perform a full scan they expect it will take longer than usual.&lt;/p&gt;
-
-&lt;p&gt;I would be quite interested in what anyone else thinks.&lt;/p&gt;
-
-&lt;p&gt;Below are screenshots of my process:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Open Microsoft Essentials when the icon has turned yellow.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc12.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;ol&gt;
-&lt;li&gt;Main window opens with the large yellow ‘Scan Now’ button visible and the quick scan option is selected by default. I then select the full scan option and click the yellow ‘Scan Now’ button.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc2.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc3.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;You notice that a quick scan has been started.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc4.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;ol&gt;
-&lt;li&gt;After cancelling the scan I made sure the full scan option was selected and then clicked on the regular scan now button. This time a full scan is started.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc5.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/sc6.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have been using Microsoft Essentials as my antivirus program ever since it was released. I really like the clean and simple user interface and the small memory footprint. I also recommend it to everyone. However recently I noticed that I hadn’t run a system scan in a while and the Microsoft Essential icon had turned yellow.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -401,64 +110,7 @@ In my opinion if you are going to handle an exception, handle them properly don�
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</guid>
-      <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The features that I like in the control are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Default themes&lt;/li&gt;
-&lt;li&gt;Data sorting&lt;/li&gt;
-&lt;li&gt;Data grouping&lt;/li&gt;
-&lt;li&gt;Data editing&lt;/li&gt;
-&lt;li&gt;Colum re-arrangement&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The features that I have listed are features that come straight out the box. I tend to normally bind the GridView to a list of business objects and either enable or disable the features through the control markup. I find these features really useful since I don’t need to write extra code on the application side nor do I have any additional views or stored procedures
-on the database side. I should mention that depending on what you do with data editing you make need to handle row events.&lt;/p&gt;
-
-&lt;p&gt;The features that I like the best is the data grouping functionality and the reason for this is that it allows users to group on any column they need to. The first screen shot shows the default gridview without any grouping. The second screen shot shows what happens when the user groups on one of the columns and the third screen shot shows what happens when the grouping is on two different columns.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/default3.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Devexpress Gridview Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/groupontwocolumns1.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Data Grouping example 1&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/groupononecolumn2.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Data Grouping example 2&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -468,35 +120,7 @@ on the database side. I should mention that depending on what you do with data e
       
       <guid>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</guid>
       <description>&lt;p&gt;The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
-I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Small and large increment buttons&lt;/li&gt;
-&lt;li&gt;Control features can be setup through markup&lt;/li&gt;
-&lt;li&gt;Control value can be retrieved as either a string or int/decimal value (this saves writing code that casts to a string or int/decimal)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Below is the markup for the spin edit control.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;dx:ASPxSpinEdit ID=&amp;quot;dxspinAmount&amp;quot; runat=&amp;quot;server&amp;quot; Height=&amp;quot;21px&amp;quot; Number=&amp;quot;0&amp;quot; NumberType=&amp;quot;Integer&amp;quot; Increment=&amp;quot;2&amp;quot; AllowNull=&amp;quot;false&amp;quot; Enabled=&amp;quot;false&amp;quot; &amp;gt;
-    &amp;lt;SpinButtons Position=&amp;quot;Left&amp;quot; ShowLargeIncrementButtons=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/SpinButtons&amp;gt;
-&amp;lt;/dx:ASPxSpinEdit&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://rubot99.github.io/images/spinedit.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;ASP.Net Spin Editor Control&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -505,139 +129,7 @@ I know on the face of it does not seem revolutionary, but a few things I like ab
       <pubDate>Sat, 09 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</guid>
-      <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I needed to and when the user clicks the third level it displays relevant information to the user.
-One of the things that I found really interesting was that your business object can implement the IVirtualTreeListData interface, this will then allow you to create the hierarchical structure for your business objects and then you will be able to directly bind a list of these objects to the tree list. For my current project I did not want to implement this interface directly in my entities. I thought it would be better to define a class that only catered to the concerns related to the tree list and did not expose all the details of the entity. Below is the TreeNode class that implements the IVirtualTreeListData.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public class TreeNode : TreeList.IVirtualTreeListData
-{
- protected TreeNode parentNode;
- protected List childrenNodes = new List();
- protected string _name;
- protected int _id;&amp;lt;/code&amp;gt;
- 
- public TreeNode (TreeNode parent, string name, int id)
- {
-  this.parentNode = parent;
- 
-  _name = name;
-  _id = id;
- 
-  if(this.parentNode != null)
-  this.parentNode.childrenNodes.Add(this);
- } 
- 
- public void VirtualTreeGetCellValue(VirtualTreeGetCellValueInfo info)
- {
-  if (info.Column.AbsoluteIndex == 0)
-   info.CellData = _name;
-  else
-   info.CellData = _id;
- }
- 
- public void VirtualTreeGetChildNodes(VirtualTreeGetChildNodesInfo info)
- {
-  info.Children = childrenNodes;
- }
- 
- public void VirtualTreeSetCellValue(VirtualTreeSetCellValueInfo info)
- {
-  if (info.Column.AbsoluteIndex == 0)
-   _name = info.NewCellData.ToString();
-  else
-   _id = (int)info.NewCellData;
- }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Below is the method that populates the TreeNodes with data from your entities and binds to the treelist.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;private void SetupControls()
-{
- //This sections sets up the tree list columns. I only display the fist column to the user. The second is used to  retrieve the additional information for the user.
- TreeListColumn col1 = new TreeListColumn();
- col1.Caption = &amp;quot;Name&amp;quot;;
- col1.VisibleIndex = 0;
- TreeListColumn col2 = new TreeListColumn();
- col2.Caption = &amp;quot;Id&amp;quot;;
- col2.VisibleIndex = 1;
- col2.Visible = false;
- treeList1.Columns.AddRange(new TreeListColumn[] { col1, col2 });
- //Here we create the root node for the treelist
- TreeNode datasource = new TreeNode(null, null, 0);
- //Iterate through the list of your entities to create the level 1, level 2 and level 3 nodes for
- tree list.
- foreach (TreeBusinessObject treenode in GetNodeObjects())
- {
-  TreeNode node = new TreeNode(datasource, treenode.Node, 0);
-  TreeNode subnode = new TreeNode(node, treenode.SubNode, 0);&amp;lt;/code&amp;gt;
- 
-  foreach (var item in treenode.GetChildSubNodes())
-  {
-   TreeNode childnode = new TreeNode(subnode, item, treenode.Id);
-  }
- }
- //Bind to the tree list
- treeList1.DataSource = datasource;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I am also adding the code for my business object.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public class TreeBusinessObject
-{
- public int Id { get; set; }
- public string Node { get; set; }
- public string SubNode { get; set; }&amp;lt;/code&amp;gt;
- 
- private List childSubNode;
- 
- public TreeBusinessObject()
- {
-  childSubNode = new List();
- }
- 
- public TreeBusinessObject(int id)
- {
-  Id = id;
-  Node = String.Format(&amp;quot;Node {0}&amp;quot;, id.ToString());
-  SubNode = String.Format(&amp;quot;Sub Node {0}&amp;quot;, id.ToString());
- 
-  childSubNode = new List();
-  AddChildNode(String.Format(&amp;quot;Child A1_{0}&amp;quot;, id.ToString()));
-  AddChildNode(String.Format(&amp;quot;Child A2_{0}&amp;quot;, id.ToString()));
-  AddChildNode(String.Format(&amp;quot;Child A3_{0}&amp;quot;, id.ToString()));
- }
- 
- public void AddChildNode(string childnode)
- {
-  childSubNode.Add(childnode);
- }
- 
- public List GetChildSubNodes()
- {
-  return childSubNode;
- }
- 
- public void RemoveChildNode(string childnode)
- {
-  childSubNode.Remove(childnode);
- }
- 
- public void ClearAllChildNodes()
- {
-  childSubNode.Clear();
- }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;I really liked that your business object can implement an interface and then directly bind a list of business objects to the tree list. Initially when I was working with the control I did not realise that there was a difference between selected nodes and focused nodes, but after using the control the difference is clear. The only thing I couldn’t figure out was setting the state of the tree list i.e. whether is was expanded or collapsed.
-For for more information about binding a treelist to your business objects refer to the DevExpress documentation.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -646,33 +138,7 @@ For for more information about binding a treelist to your business objects refer
       <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</guid>
-      <description>&lt;p&gt;Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I attended the following sessions at DDD:&lt;/p&gt;
-
-&lt;p&gt;CQRS and Friends: Possibly distributed systems, intentionally  – Andrea Magnorsky&lt;/p&gt;
-
-&lt;p&gt;This was an introductory session on CQRS/ES.&lt;/p&gt;
-
-&lt;p&gt;Caliburn.Micro: Painless MVVM apps for Silverlight and WPF – Barry Carr&lt;/p&gt;
-
-&lt;p&gt;This session was a good introduction to using Caliburn Micro with Silverlight. The step by step code demo on using Caliburn Micro was really useful and good. Caliburn Micro seems like a really cool MVVM framework and I am planning try it out on a small project.&lt;/p&gt;
-
-&lt;p&gt;Unit Testing, Test Driven Development and the Walking Skeleton – Seb Rose&lt;/p&gt;
-
-&lt;p&gt;A detailed talk explaining TDD and the pros and pit falls you might face when using TDD in your team.&lt;/p&gt;
-
-&lt;p&gt;Is your code S.O.L.I.D? – Nathan Gloyn&lt;/p&gt;
-
-&lt;p&gt;I initially was expecting this talk to be a detailed description about SOLID principles, but was pleasantly surprised to see that Nathan had code examples too.&lt;/p&gt;
-
-&lt;p&gt;Functional Alchemy: Tricks to keep your C# DRY* – Mark Rendle&lt;/p&gt;
-
-&lt;p&gt;This was another excellent session with a great code demo. One of the things Mark discussed was a try-catch functional strategy which I think I’m going to start using in my code.&lt;/p&gt;
-
-&lt;p&gt;It was a great developer event and I am tempted to go to the DDD South West event next month.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -681,42 +147,7 @@ For for more information about binding a treelist to your business objects refer
       <pubDate>Wed, 20 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/</guid>
-      <description>&lt;p&gt;For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I have used Visual Source Safe briefly and have mostly used Subversion with TortoiseSVN. So I found it quite easy to switch to TortoiseHg. I am still getting to grips with Mercurial, but I have really enjoyed using it and think I will permanently move to using Mercurial.&lt;/p&gt;
-
-&lt;p&gt;Finally I wanted to setup a stable repository for the project so that I could push my changes to a Mercurial server and in the future setup cruise control to pull the changes from a central location. Also it would allow my manager to view the changes without having TortosieHg installed on his machine.&lt;/p&gt;
-
-&lt;p&gt;Since we are a Microsoft dev shop, I decided it would be easier to setup Mercurial on IIS. I found quite a few posts on setting up Mercurial on IIS 7, but had quite a difficult time getting it to work. I have also found differences in the setup process for Windows Server 2008 R2 (64 bit) and Windows Server 2008 (32 bit). So in this post I am going to list the blog articles that helped me to setup a Mercurial server successfully.&lt;/p&gt;
-
-&lt;p&gt;I started off by experimenting on a Windows Server 2008 (32 bit) VM (Virtual Machine). After many attempts I finally found a combination of two blogs post that helped me get Mercurial running.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jake Murzy’s Blog – Installing and Setting Up Mercurial on Windows/IIS7 running Python&lt;/li&gt;
-&lt;li&gt;Matt Hawley – Setting up Mercurial server in IIS7 using a ISAPI module&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Note: I didn’t have a problem installing isapi-wsgi on the virtual machine since the virtual machine had the MSVCR71.dll file in the System32 folder.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;VM Details: 32-bit Microsoft Windows Server 2008, 1GB RAM and 16GB HDD running on VMWare server.&lt;/p&gt;
-
-&lt;p&gt;The Virtual Machine also had the following software products installed:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mozilla Firefox/Chrome&lt;/li&gt;
-&lt;li&gt;7 zip&lt;/li&gt;
-&lt;li&gt;Notepad++&lt;/li&gt;
-&lt;li&gt;VM Ware tools&lt;/li&gt;
-&lt;li&gt;IIS 7 with IIS 6 Management Compatibility and Application development services installed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After following the instructions from the two posts I got the Mercurial web interface working. However when I came to install it on a server running Windows 2008 R2 (64 bit), I couldn’t seem to get it to work. So after googling a bit I found the following post which helped me get Mercurial setup on my server.&lt;/p&gt;
-
-&lt;p&gt;Stacking Code – &lt;a href=&#34;http://stackingcode.com/blog/2011/02/24/running-a-mercurial-server-on-iis-7-5-windows-server-2008-r2&#34;&gt;Running a Mercurial Server on IIS 7.5&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.&lt;/p&gt;</description>
     </item>
     
   </channel>

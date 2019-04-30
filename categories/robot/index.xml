@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rubot</title>
-    <link>https://rubot99.github.io/categories/robot/index.xml</link>
-    <description>Recent content on rubot</description>
+    <title>robot on rubot</title>
+    <link>https://rubot99.github.io/categories/robot/</link>
+    <description>Recent content in robot on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://rubot99.github.io/categories/robot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rubot99.github.io/categories/robot/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Robot Band On Engadget</title>
@@ -15,13 +18,7 @@
       
       <guid>https://rubot99.github.io/2011/08/robot-band-on-engadget/</guid>
       <description>&lt;p&gt;Couple of weeks ago I came across this post on the engadget website about a &lt;a href=&#34;https://www.engadget.com/2011/07/18/robot-band-covers-marilyn-manson-renders-sullen-teenagers-obsol/&#34;&gt;robotic band called ‘End of Life’&lt;/a&gt;.
-The video shows the band covering ‘The Beautiful People’ by Marilyn Manson. I thought it was extremely cool.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?feature=player_embedded&amp;v=9QMtDyvAzVw
-&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://img.youtube.com/vi/9QMtDyvAzVw/0.jpg&#34; 
-alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; border=&#34;10&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+The video shows the band covering ‘The Beautiful People’ by Marilyn Manson. I thought it was extremely cool.&lt;/p&gt;</description>
     </item>
     
   </channel>
