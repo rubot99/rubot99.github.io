@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sql on rubot</title>
-    <link>https://rubot99.github.io/tags/sql/</link>
+    <link>/tags/sql/</link>
     <description>Recent content in sql on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Jul 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Red Gate Sql In The City London</title>
-      <link>https://rubot99.github.io/2012/07/red-gate-sql-in-the-city-london/</link>
+      <link>/blog/red-gate-sql-in-the-city-london/</link>
       <pubDate>Sat, 21 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2012/07/red-gate-sql-in-the-city-london/</guid>
+      <guid>/blog/red-gate-sql-in-the-city-london/</guid>
       <description>&lt;p&gt;Last Saturday I attended the Red Gate ‘SQL in the City’ event in London. It was one of the best free event that I have been to. The event was very well organised and had a great line up of sessions. There were three tracks of sessions DBA, Red Gate and Developer and I would have liked to attend all of them, but had to choose the ones I really wanted to attend.&lt;/p&gt;</description>
     </item>
     

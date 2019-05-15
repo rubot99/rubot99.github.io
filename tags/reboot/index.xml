@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reboot on rubot</title>
-    <link>https://rubot99.github.io/tags/reboot/</link>
+    <link>/tags/reboot/</link>
     <description>Recent content in reboot on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2017 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/reboot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/reboot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World Reboot</title>
-      <link>https://rubot99.github.io/2017/03/hello-world-reboot/</link>
-      <pubDate>Wed, 01 Mar 2017 17:30:00 +0000</pubDate>
+      <link>/blog/hello-world-reboot/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/03/hello-world-reboot/</guid>
+      <guid>/blog/hello-world-reboot/</guid>
       <description>&lt;p&gt;It’s been about 4 years since I last blogged, stuff has got in the way and I have just not been bothered. Anyway this year I want to start blogging again – a hello world reboot ;).&lt;/p&gt;</description>
     </item>
     

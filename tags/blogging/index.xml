@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogging on rubot</title>
-    <link>https://rubot99.github.io/tags/blogging/</link>
+    <link>/tags/blogging/</link>
     <description>Recent content in blogging on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Experiments with Blogging Platforms</title>
-      <link>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</link>
-      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      <link>/blog/experiments-with-blogging-platforms/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</guid>
+      <guid>/blog/experiments-with-blogging-platforms/</guid>
       <description>&lt;p&gt;When I first decided to blog, I investigated a few platforms. I wanted something that allowed me to&lt;/p&gt;
 
 &lt;ul&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Hello World Reboot</title>
-      <link>https://rubot99.github.io/2017/03/hello-world-reboot/</link>
-      <pubDate>Wed, 01 Mar 2017 17:30:00 +0000</pubDate>
+      <link>/blog/hello-world-reboot/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/03/hello-world-reboot/</guid>
+      <guid>/blog/hello-world-reboot/</guid>
       <description>&lt;p&gt;It’s been about 4 years since I last blogged, stuff has got in the way and I have just not been bothered. Anyway this year I want to start blogging again – a hello world reboot ;).&lt;/p&gt;</description>
     </item>
     

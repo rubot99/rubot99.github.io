@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c# on rubot</title>
-    <link>https://rubot99.github.io/categories/c#/</link>
+    <link>/categories/c#/</link>
     <description>Recent content in c# on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Aug 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/categories/c#/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Devexpress Gridview Control</title>
-      <link>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</link>
+      <link>/blog/using-devexpress-gridview-control/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</guid>
+      <guid>/blog/using-devexpress-gridview-control/</guid>
       <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using DevExpress ASP.Net Spin Editor Control</title>
-      <link>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</link>
+      <link>/blog/using-devexpress-spin-editor-control/</link>
       <pubDate>Tue, 02 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</guid>
+      <guid>/blog/using-devexpress-spin-editor-control/</guid>
       <description>&lt;p&gt;The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
 I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using Devexpress Winforms Treelist Control</title>
-      <link>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</link>
+      <link>/blog/using-devexpress-winforms-treelist-control/</link>
       <pubDate>Sat, 09 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</guid>
+      <guid>/blog/using-devexpress-winforms-treelist-control/</guid>
       <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;</description>
     </item>
     

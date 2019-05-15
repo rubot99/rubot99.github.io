@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>backup on rubot</title>
-    <link>https://rubot99.github.io/tags/backup/</link>
+    <link>/tags/backup/</link>
     <description>Recent content in backup on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 May 2010 20:00:26 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Quest for a Personal Backup Strategy – Part 3</title>
-      <link>https://rubot99.github.io/2010/05/the-quest-for-a-personal-backup-strategy-part-3/</link>
+      <link>/blog/quest-personal-backup-strategy-part3/</link>
       <pubDate>Tue, 04 May 2010 20:00:26 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2010/05/the-quest-for-a-personal-backup-strategy-part-3/</guid>
+      <guid>/blog/quest-personal-backup-strategy-part3/</guid>
       <description>&lt;p&gt;This is my final post on my personal backup strategy. In this post I am going to state which service I decided to go with.
 At the end of my last post I couldn’t decide between Backblaze and Mozy since I liked both backup services.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Quest Personal Backup Strategy - Part 2</title>
-      <link>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-2/</link>
+      <link>/blog/quest-personal-backup-strategy-part2/</link>
       <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-2/</guid>
+      <guid>/blog/quest-personal-backup-strategy-part2/</guid>
       <description>&lt;p&gt;This second post is to clarify questions I had about some of the cloud based backup solutions. I haven’t tried out Jungle Disk, since the pay as you use storage costs would be too expensive for me. Also with Jungle Disk you would need to pay for the product and the storage costs. This would be expensive for me and so haven’t investigated the service further.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Quest Personal Backup Strategy - Part 1</title>
-      <link>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-1/</link>
+      <link>/blog/quest-personal-backup-strategy-part1/</link>
       <pubDate>Mon, 29 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-1/</guid>
+      <guid>/blog/quest-personal-backup-strategy-part1/</guid>
       <description>&lt;p&gt;Let me start by saying that I am continuously trying to improve my backup strategy. From my experience I believe that a backup strategy will evolve as your needs change and a one size fits all doesn’t really work. So for this reason I am always asking people how they backup their important data and reading blog posts on people’s backup strategies. All this helps me to refine my backup strategy.&lt;/p&gt;</description>
     </item>
     

@@ -2,156 +2,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on rubot</title>
-    <link>https://rubot99.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Sep 2017 20:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>books</title>
-      <link>https://rubot99.github.io/categories/books/</link>
+      <title></title>
+      <link>/categories/</link>
       <pubDate>Fri, 15 Sep 2017 20:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/books/</guid>
+      <guid>/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>/categories/books/</link>
+      <pubDate>Fri, 15 Sep 2017 20:30:00 +0000</pubDate>
+      
+      <guid>/categories/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>https://rubot99.github.io/categories/blogging/</link>
-      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      <link>/categories/blogging/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/blogging/</guid>
+      <guid>/categories/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://rubot99.github.io/categories/github/</link>
-      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      <link>/categories/github/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/github/</guid>
+      <guid>/categories/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://rubot99.github.io/categories/hugo/</link>
-      <pubDate>Sat, 04 Mar 2017 16:00:00 +0000</pubDate>
+      <link>/categories/hugo/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/hugo/</guid>
+      <guid>/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conference</title>
-      <link>https://rubot99.github.io/categories/conference/</link>
+      <link>/categories/conference/</link>
       <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/conference/</guid>
+      <guid>/categories/conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://rubot99.github.io/categories/development/</link>
+      <link>/categories/development/</link>
       <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/development/</guid>
+      <guid>/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://rubot99.github.io/categories/code/</link>
+      <link>/categories/code/</link>
       <pubDate>Fri, 20 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/code/</guid>
+      <guid>/categories/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ux</title>
-      <link>https://rubot99.github.io/categories/ux/</link>
+      <link>/categories/ux/</link>
       <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/ux/</guid>
+      <guid>/categories/ux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>business</title>
-      <link>https://rubot99.github.io/categories/business/</link>
+      <link>/categories/business/</link>
       <pubDate>Fri, 23 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/business/</guid>
+      <guid>/categories/business/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c#</title>
-      <link>https://rubot99.github.io/categories/c#/</link>
+      <link>/categories/c#/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/c#/</guid>
+      <guid>/categories/c#/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robot</title>
-      <link>https://rubot99.github.io/categories/robot/</link>
+      <link>/categories/robot/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/robot/</guid>
+      <guid>/categories/robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>https://rubot99.github.io/categories/tech/</link>
+      <link>/categories/tech/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/tech/</guid>
+      <guid>/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>application</title>
-      <link>https://rubot99.github.io/categories/application/</link>
+      <link>/categories/application/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/application/</guid>
+      <guid>/categories/application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photography</title>
-      <link>https://rubot99.github.io/categories/photography/</link>
+      <link>/categories/photography/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/photography/</guid>
+      <guid>/categories/photography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>source control</title>
-      <link>https://rubot99.github.io/categories/source-control/</link>
+      <link>/categories/source-control/</link>
       <pubDate>Wed, 20 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/source-control/</guid>
+      <guid>/categories/source-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backup</title>
-      <link>https://rubot99.github.io/categories/backup/</link>
+      <link>/categories/backup/</link>
       <pubDate>Tue, 04 May 2010 20:00:26 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/categories/backup/</guid>
+      <guid>/categories/backup/</guid>
       <description></description>
     </item>
     

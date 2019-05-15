@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>business on rubot</title>
-    <link>https://rubot99.github.io/categories/business/</link>
+    <link>/categories/business/</link>
     <description>Recent content in business on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Mar 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/categories/business/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/business/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web Fuelled Business Event</title>
-      <link>https://rubot99.github.io/2012/03/web-fuelled-business-event/</link>
+      <link>/blog/web-fuelled-business-event/</link>
       <pubDate>Fri, 23 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2012/03/web-fuelled-business-event/</guid>
+      <guid>/blog/web-fuelled-business-event/</guid>
       <description>&lt;p&gt;Yesterday I attended the Web Fuelled Business event at Castle Gate, Newcastle upon Tyne. This event was organised by the School for Startups. The speakers were Doug Richard and James Dening (click here for information on the speakers). In my opinion the event was very well organised and I did take away quite a bit from the sessions. The Castle Gate venue was a wonderful venue and the venue staffs were excellent.&lt;/p&gt;</description>
     </item>
     

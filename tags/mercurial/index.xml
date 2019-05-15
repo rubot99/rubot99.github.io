@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mercurial on rubot</title>
-    <link>https://rubot99.github.io/tags/mercurial/</link>
+    <link>/tags/mercurial/</link>
     <description>Recent content in mercurial on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Apr 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/mercurial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mercurial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting Up Mercurial Dev Shop</title>
-      <link>https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/</link>
+      <link>/blog/setting-up-mercurial-dev-shop/</link>
       <pubDate>Wed, 20 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/</guid>
+      <guid>/blog/setting-up-mercurial-dev-shop/</guid>
       <description>&lt;p&gt;For a long time I have wanted to use a distributed source control management tool at work. I have looked at both Mercurial and Git and decided that I would like try Mercurial. So recently I have had the opportunity to use Mercurial on a new project.&lt;/p&gt;</description>
     </item>
     

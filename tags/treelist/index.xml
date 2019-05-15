@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>treelist on rubot</title>
-    <link>https://rubot99.github.io/tags/treelist/</link>
+    <link>/tags/treelist/</link>
     <description>Recent content in treelist on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Jul 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/treelist/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/treelist/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Devexpress Winforms Treelist Control</title>
-      <link>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</link>
+      <link>/blog/using-devexpress-winforms-treelist-control/</link>
       <pubDate>Sat, 09 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</guid>
+      <guid>/blog/using-devexpress-winforms-treelist-control/</guid>
       <description>&lt;p&gt;I have been using the DevExpress WinForms &amp;amp; ASP.Net controls at work. I have been surprised by the many useful features that you get straight out of the box. I mostly work with the ASP.Net controls, but recently I have been using the DevExpress TreeList WinForm controls.&lt;/p&gt;</description>
     </item>
     

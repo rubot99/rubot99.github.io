@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gridview on rubot</title>
-    <link>https://rubot99.github.io/tags/gridview/</link>
+    <link>/tags/gridview/</link>
     <description>Recent content in gridview on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Aug 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/gridview/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/gridview/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Devexpress Gridview Control</title>
-      <link>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</link>
+      <link>/blog/using-devexpress-gridview-control/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</guid>
+      <guid>/blog/using-devexpress-gridview-control/</guid>
       <description>&lt;p&gt;This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.&lt;/p&gt;</description>
     </item>
     

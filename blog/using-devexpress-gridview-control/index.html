@@ -1,0 +1,1063 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Using Devexpress Gridview Control",
+        "headline" : "Using Devexpress Gridview Control",
+        "description" : "Devexpress Asp.Net Gridview control",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2011",
+        "datePublished": "2011-08-05 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2011-08-05 00:00:00 \x2b0000 UTC",
+        "url" : "\/blog\/using-devexpress-gridview-control\/",
+        "wordCount" : "264",
+        "keywords" : [ "devexpress","gridview","code","c#","development","Blog" ]
+    }
+    </script>
+        
+            
+                <title>Using Devexpress Gridview Control</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.55.4" />
+        
+
+
+        
+            <meta name="author" content="Reuben">
+        
+        
+            <meta name="description" content="Devexpress Asp.Net Gridview control">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Devexpress Gridview Control"/>
+<meta name="twitter:description" content="Devexpress Asp.Net Gridview control"/>
+<meta name="twitter:site" content="@rubot99"/>
+
+        <meta property="og:title" content="Using Devexpress Gridview Control" />
+<meta property="og:description" content="Devexpress Asp.Net Gridview control" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/using-devexpress-gridview-control/" />
+<meta property="article:published_time" content="2011-08-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2011-08-05T00:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Using Devexpress Gridview Control">
+<meta itemprop="description" content="Devexpress Asp.Net Gridview control">
+
+
+<meta itemprop="datePublished" content="2011-08-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2011-08-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="264">
+
+
+
+<meta itemprop="keywords" content="devexpress,gridview,code,c#,development," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-140149849-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-soft-skills/">Review - Soft Skills - The software developer&#39;s life manual</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-09-15'>
+                                    September 15, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-the-phoenix-project/">Review - The Phoenix Project</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-09-10'>
+                                    September 10, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-art-discarding/">Review - Art of Discarding</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-31'>
+                                    August 31, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-refactoring-martinfowler-part3/">Review - Refactoring - Improving the design of existing code - Part 3</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-12'>
+                                    August 12, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-refactoring-martinfowler-part2/">Review - Refactoring - Improving the design of existing code - Part 2</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-10'>
+                                    August 10, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;text=Using%20Devexpress%20Gridview%20Control&amp;via=rubot99" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fusing-devexpress-gridview-control%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Reuben&amp;body=%2fblog%2fusing-devexpress-gridview-control%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/using-devexpress-gridview-control/">Using Devexpress Gridview Control</a></h1>
+            
+        
+        
+            <p>Devexpress Asp.Net Gridview control</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2011-08-05'>
+            August 5, 2011</time>
+        <span class="author">Reuben</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;text=Using%20Devexpress%20Gridview%20Control&amp;via=rubot99" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fusing-devexpress-gridview-control%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fusing-devexpress-gridview-control%2f&amp;title=Using%20Devexpress%20Gridview%20Control" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Reuben&amp;body=%2fblog%2fusing-devexpress-gridview-control%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+
+
+  <div id="content">
+    <p>This is another post in my series of DevExpress controls that I use and like. In this post I will be looking at the ASPxGridView control. This control is one of my most used and favourite DevExpress controls. The functionality that you get straight out of the box is impressive to say the least. I’m able to add functionality that is extremely useful to the users with very little effort or code.</p>
+
+<p>The features that I like in the control are:</p>
+
+<ol>
+<li>Default themes</li>
+<li>Data sorting</li>
+<li>Data grouping</li>
+<li>Data editing</li>
+<li>Colum re-arrangement</li>
+</ol>
+
+<p>The features that I have listed are features that come straight out the box. I tend to normally bind the GridView to a list of business objects and either enable or disable the features through the control markup. I find these features really useful since I don’t need to write extra code on the application side nor do I have any additional views or stored procedures
+on the database side. I should mention that depending on what you do with data editing you make need to handle row events.</p>
+
+<p>The features that I like the best is the data grouping functionality and the reason for this is that it allows users to group on any column they need to. The first screen shot shows the default gridview without any grouping. The second screen shot shows what happens when the user groups on one of the columns and the third screen shot shows what happens when the grouping is on two different columns.</p>
+
+<p><figure>
+    <img src="/img/2011/default3.png"/> <figcaption>
+            <h4>Devexpress Gridview Control</h4>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="/img/2011/groupontwocolumns1.png"/> <figcaption>
+            <h4>Data Grouping example 1</h4>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="/img/2011/groupononecolumn2.png"/> <figcaption>
+            <h4>Data Grouping example 2</h4>
+        </figcaption>
+</figure>
+</p>
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="/categories/development">development</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/code">code</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/c">c#</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="/tags/devexpress">devexpress</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/gridview">gridview</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/code">code</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/c">c#</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/development">development</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/using-devexpress-spin-editor-control/"
+                class="button big previous">Using DevExpress ASP.Net Spin Editor Control</a></li>
+    
+
+    
+        <li><a href="/blog/web-fuelled-business-event/"
+                class="button big next">Web Fuelled Business Event</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/' class="logo"><img src="/img/main/profile.jpg" alt="rubot" /></a>
+      
+    
+    
+      <header>
+        <h2>rubot</h2>
+        <p>Thoughts from a software engineer.</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/rubot99" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/rubot99" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/rubot99" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-soft-skills/">Review - Soft Skills - The software developer&#39;s life manual</a>
+              </h3>
+              
+              <time class="published" datetime='2017-09-15'>
+                September 15, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-the-phoenix-project/">Review - The Phoenix Project</a>
+              </h3>
+              
+              <time class="published" datetime='2017-09-10'>
+                September 10, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-art-discarding/">Review - Art of Discarding</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-31'>
+                August 31, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-refactoring-martinfowler-part3/">Review - Refactoring - Improving the design of existing code - Part 3</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-12'>
+                August 12, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-refactoring-martinfowler-part2/">Review - Refactoring - Improving the design of existing code - Part 2</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-10'>
+                August 10, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Software developer, Technology geek & Gadget lover. I love all things technology and computer related.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/rubot99" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/rubot99" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/rubot99" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2017
+        
+          rubot
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

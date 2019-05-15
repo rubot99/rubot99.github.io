@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.net on rubot</title>
-    <link>https://rubot99.github.io/tags/.net/</link>
+    <link>/tags/.net/</link>
     <description>Recent content in .net on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ddd North 2012</title>
-      <link>https://rubot99.github.io/2012/10/ddd-north-2012/</link>
+      <link>/blog/ddd-north-2012/</link>
       <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2012/10/ddd-north-2012/</guid>
+      <guid>/blog/ddd-north-2012/</guid>
       <description>&lt;p&gt;Last Saturday I attended the DDD North 2 event at Bradford Business School. It was another excellent event. As usual it was well organised and with an excellent line up of talks. This was my third DDD event so far and I thoroughly enjoyed it. I have to admit I wasn’t sure if I wanted to go this year since I didn’t think I would be interested in many of the talk, but I’m glad I did go since some of the talks that I thought I wouldn’t be interested were really useful and interesting.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Developer Developer, Developer Scotland 2011</title>
-      <link>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</link>
+      <link>/blog/developer-developer-developer-scotland-2011/</link>
       <pubDate>Sun, 08 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</guid>
+      <guid>/blog/developer-developer-developer-scotland-2011/</guid>
       <description>&lt;p&gt;Yesterday I attended the Developer, Developer, Developer event in Glasgow. It was the first time I have been to a DDD event and I have to say I thoroughly enjoyed it. The event was well organised and the content in the sessions were excellent. The event thoroughly exceeded my expectations. There were so many interesting sessions that if I had the chance I would have attended them all.&lt;/p&gt;</description>
     </item>
     

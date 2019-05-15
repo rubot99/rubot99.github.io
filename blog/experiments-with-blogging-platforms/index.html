@@ -1,0 +1,1075 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Experiments with Blogging Platforms",
+        "headline" : "Experiments with Blogging Platforms",
+        "description" : "Investigating blogging platforms and static file generators",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-03-04 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2017-03-04 00:00:00 \x2b0000 UTC",
+        "url" : "\/blog\/experiments-with-blogging-platforms\/",
+        "wordCount" : "556",
+        "keywords" : [ "blogging","hugo","wercker","jekyll","github","Blog" ]
+    }
+    </script>
+        
+            
+                <title>Experiments with Blogging Platforms</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.55.4" />
+        
+
+
+        
+            <meta name="author" content="Reuben">
+        
+        
+            <meta name="description" content="Investigating blogging platforms and static file generators">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Experiments with Blogging Platforms"/>
+<meta name="twitter:description" content="Investigating blogging platforms and static file generators"/>
+<meta name="twitter:site" content="@rubot99"/>
+
+        <meta property="og:title" content="Experiments with Blogging Platforms" />
+<meta property="og:description" content="Investigating blogging platforms and static file generators" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/experiments-with-blogging-platforms/" />
+<meta property="article:published_time" content="2017-03-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-03-04T00:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Experiments with Blogging Platforms">
+<meta itemprop="description" content="Investigating blogging platforms and static file generators">
+
+
+<meta itemprop="datePublished" content="2017-03-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-03-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="556">
+
+
+
+<meta itemprop="keywords" content="blogging,hugo,wercker,jekyll,github," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-140149849-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-soft-skills/">Review - Soft Skills - The software developer&#39;s life manual</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-09-15'>
+                                    September 15, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-the-phoenix-project/">Review - The Phoenix Project</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-09-10'>
+                                    September 10, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-art-discarding/">Review - Art of Discarding</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-31'>
+                                    August 31, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-refactoring-martinfowler-part3/">Review - Refactoring - Improving the design of existing code - Part 3</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-12'>
+                                    August 12, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/review-refactoring-martinfowler-part2/">Review - Refactoring - Improving the design of existing code - Part 2</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-10'>
+                                    August 10, 2017</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;text=Experiments%20with%20Blogging%20Platforms&amp;via=rubot99" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fexperiments-with-blogging-platforms%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Reuben&amp;body=%2fblog%2fexperiments-with-blogging-platforms%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/experiments-with-blogging-platforms/">Experiments with Blogging Platforms</a></h1>
+            
+        
+        
+            <p>Investigating blogging platforms and static file generators</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-03-04'>
+            March 4, 2017</time>
+        <span class="author">Reuben</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;text=Experiments%20with%20Blogging%20Platforms&amp;via=rubot99" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fexperiments-with-blogging-platforms%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fexperiments-with-blogging-platforms%2f&amp;title=Experiments%20with%20Blogging%20Platforms" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Reuben&amp;body=%2fblog%2fexperiments-with-blogging-platforms%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+
+
+  <div id="content">
+    <p>When I first decided to blog, I investigated a few platforms. I wanted something that allowed me to</p>
+
+<ul>
+<li>Create posts easily</li>
+<li>Flexibility with theme and other advanced features</li>
+<li>Low cost/Free</li>
+</ul>
+
+<p>After investigating, I settled with WordPress.com , it had all the features that I was looking for from a blogging platform and more. I used WordPress.com for about two years, then got a bit busy with other stuff and slowly stopped blogging all together.
+This year I decided that I should get back into blogging and one of my resolutions for the year is to write a minimum of 12 blog posts. So this post is the first of my posts, so one down and eleven to go.</p>
+
+<h4 id="revisit-current-setup">Revisit current setup</h4>
+
+<p>To kick start blogging, I decided to look at other blogging platforms and make some changes to my current blog. I found that I wasn’t really using all the features I got with WordPress.com. I had heard of Ghost and was looking at that platform. I liked the clean minimalist look of most of the Ghost themes and was interested in using markdown to write my posts. While investigating the Ghost platform and hosting options, I came across GitHub pages and Jekyll.</p>
+
+<figure>
+    <img src="/img/2017/wordpressBlog.jpg"/> <figcaption>
+            <h4>rubot blog</h4>
+        </figcaption>
+</figure>
+
+
+<h4 id="github-pages-and-jekyll">GitHub Pages and Jekyll</h4>
+
+<p>So I started investigating GitHub user pages, the thought of having a github.io domain sounded really interesting and using the same tools &amp; processes that I use to develop for blogging was appealing. Being a Windows user, I had few problems running my Jekyll site on my machine. I finally decided to just fork a theme and gave up on running the site locally. I did have a few problems with some of themes I forked. After looking at few themes, I finally settled on the ‘minimal mistakes’ theme, it worked really well, had a clean design and good documentation.</p>
+
+<figure>
+    <img src="/img/2017/jekyll.jpg"/> <figcaption>
+            <h4>Jekyll static site generator</h4>
+        </figcaption>
+</figure>
+
+
+<h4 id="github-pages-and-hugo">GitHub Pages and Hugo</h4>
+
+<p>So after building the blog using Jekyll, I was doing some research and came across Hugo. Hugo is a static site generator and I decided to play around with it. Hugo is a cross platform application and coupled with the good documentation it was very easy to get started using Hugo. I selected a theme and got building a Hugo site. Once I built the Hugo site, I started looking at deploying my site to GitHub user pages. The Hugo documentation has a tutorial on building and deploying your site using a tool called Wercker. Wercker is a CI tool and it was really easy to get it all set up.</p>
+
+<figure>
+    <img src="/img/2017/hugo.jpg"/> <figcaption>
+            <h4>Hugo static site generator</h4>
+        </figcaption>
+</figure>
+
+
+<h4 id="the-process">The Process</h4>
+
+<p>So after all the investigation and testing, I finally settled on using Hugo to build my site and Wercker to deploy the site to my GitHub user pages. I’ve got two repositories my user pages repo that holds the generated files and a repo to hold the site code. As soon as I commit and push changes to my site, Wercker will build the site and deploy the generated site to my user pages repo. I will agree it seems a lot of work for publishing a post, but as a developer this process is second nature to the way I work on a daily basis. Also through all the testing I’ve got to use Visual Studio Code, Atom and Git Kraken.</p>
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="/categories/blogging">blogging</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/github">github</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/hugo">hugo</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="/tags/blogging">blogging</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/hugo">hugo</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/wercker">wercker</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/jekyll">jekyll</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/github">github</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/hello-world-reboot/"
+                class="button big previous">Hello World Reboot</a></li>
+    
+
+    
+        <li><a href="/blog/review-tdd-kentbeck/"
+                class="button big next">Review - Test Driven Development by Example</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/' class="logo"><img src="/img/main/profile.jpg" alt="rubot" /></a>
+      
+    
+    
+      <header>
+        <h2>rubot</h2>
+        <p>Thoughts from a software engineer.</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/rubot99" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/rubot99" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/rubot99" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-soft-skills/">Review - Soft Skills - The software developer&#39;s life manual</a>
+              </h3>
+              
+              <time class="published" datetime='2017-09-15'>
+                September 15, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-the-phoenix-project/">Review - The Phoenix Project</a>
+              </h3>
+              
+              <time class="published" datetime='2017-09-10'>
+                September 10, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-art-discarding/">Review - Art of Discarding</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-31'>
+                August 31, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-refactoring-martinfowler-part3/">Review - Refactoring - Improving the design of existing code - Part 3</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-12'>
+                August 12, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/review-refactoring-martinfowler-part2/">Review - Refactoring - Improving the design of existing code - Part 2</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-10'>
+                August 10, 2017
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Software developer, Technology geek & Gadget lover. I love all things technology and computer related.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/rubot99" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/rubot99" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/rubot99" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2017
+        
+          rubot
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

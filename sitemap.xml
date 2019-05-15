@@ -3,440 +3,476 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rubot99.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/post/</loc>
+    <loc>/blog/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/09/review-soft-skills-the-software-developers-life-manual/</loc>
-    <lastmod>2017-09-15T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/tags/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/book-review/</loc>
+    <loc>/blog/review-soft-skills/</loc>
+    <lastmod>2017-09-15T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/books/</loc>
+    <loc>/tags/book-review/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/</loc>
+    <loc>/categories/books/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/self-development/</loc>
+    <loc>/</loc>
     <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/09/review-the-phoenix-project/</loc>
-    <lastmod>2017-09-10T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/tags/development/</loc>
-    <lastmod>2017-09-10T17:30:00+00:00</lastmod>
+    <loc>/tags/self-development/</loc>
+    <lastmod>2017-09-15T20:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/08/review-art-of-discarding/</loc>
-    <lastmod>2017-08-31T17:30:00+00:00</lastmod>
+    <loc>/blog/review-the-phoenix-project/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-3/</loc>
+    <loc>/tags/development/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/review-art-discarding/</loc>
+    <lastmod>2017-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/review-refactoring-martinfowler-part3/</loc>
     <lastmod>2017-08-12T21:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-2/</loc>
-    <lastmod>2017-08-10T21:30:00+00:00</lastmod>
+    <loc>/blog/review-refactoring-martinfowler-part2/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/08/review-refactoring-improving-the-design-of-existing-code-part-1/</loc>
-    <lastmod>2017-08-10T20:30:00+00:00</lastmod>
+    <loc>/blog/review-refactoring-martinfowler-part1/</loc>
+    <lastmod>2017-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/04/review-test-driven-development-by-example/</loc>
+    <loc>/itemized/item1/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itemized/item2/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itemized/item3/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itemized/item4/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itemized/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/review-tdd-kentbeck/</loc>
     <lastmod>2017-04-10T13:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/03/experiments-with-blogging-platforms/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/blog/experiments-with-blogging-platforms/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/blogging/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/tags/blogging/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/blogging/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/categories/blogging/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/github/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/tags/github/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/github/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/categories/github/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/hugo/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/hugo/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/jekyll/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/wercker/</loc>
-    <lastmod>2017-03-04T16:00:00+00:00</lastmod>
+    <loc>/tags/wercker/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2017/03/hello-world-reboot/</loc>
-    <lastmod>2017-03-01T17:30:00+00:00</lastmod>
+    <loc>/blog/hello-world-reboot/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/reboot/</loc>
-    <lastmod>2017-03-01T17:30:00+00:00</lastmod>
+    <loc>/tags/reboot/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/.net/</loc>
+    <loc>/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/.net/</loc>
     <lastmod>2012-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2012/10/ddd-north-2012/</loc>
+    <loc>/blog/ddd-north-2012/</loc>
     <lastmod>2012-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/conference/</loc>
-    <lastmod>2012-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/tags/conference/</loc>
+    <loc>/tags/conference/</loc>
     <lastmod>2012-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/development/</loc>
+    <loc>/categories/conference/</loc>
     <lastmod>2012-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2012/07/red-gate-sql-in-the-city-london/</loc>
+    <loc>/categories/development/</loc>
+    <lastmod>2012-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/red-gate-sql-in-the-city-london/</loc>
     <lastmod>2012-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/redgate/</loc>
+    <loc>/tags/redgate/</loc>
     <lastmod>2012-07-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/sql/</loc>
+    <loc>/tags/sql/</loc>
     <lastmod>2012-07-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2012/07/handled-unhandled-exceptions/</loc>
+    <loc>/blog/handled-unhandled-exceptions/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/c#/</loc>
-    <lastmod>2012-07-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/categories/code/</loc>
+    <loc>/tags/c#/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/code/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2012-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2012/05/is-intuitive-user-interface-design-actually-subjective/</loc>
+    <loc>/categories/code/</loc>
+    <lastmod>2012-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/is-intuitive-user-interface-design-actually-subjective/</loc>
     <lastmod>2012-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/ux/</loc>
-    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/tags/ux/</loc>
+    <loc>/tags/ux/</loc>
     <lastmod>2012-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2012/03/web-fuelled-business-event/</loc>
-    <lastmod>2012-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/categories/business/</loc>
-    <lastmod>2012-03-23T00:00:00+00:00</lastmod>
+    <loc>/categories/ux/</loc>
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/business/</loc>
+    <loc>/blog/web-fuelled-business-event/</loc>
     <lastmod>2012-03-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/web/</loc>
+    <loc>/tags/business/</loc>
     <lastmod>2012-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/08/using-devexpress-gridview-control/</loc>
+    <loc>/categories/business/</loc>
+    <lastmod>2012-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2012-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/using-devexpress-gridview-control/</loc>
     <lastmod>2011-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/c#/</loc>
+    <loc>/categories/c#/</loc>
     <lastmod>2011-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/devexpress/</loc>
+    <loc>/tags/devexpress/</loc>
     <lastmod>2011-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/gridview/</loc>
+    <loc>/tags/gridview/</loc>
     <lastmod>2011-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</loc>
+    <loc>/blog/using-devexpress-spin-editor-control/</loc>
     <lastmod>2011-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/spin-editor/</loc>
+    <loc>/tags/spin-editor/</loc>
     <lastmod>2011-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/08/robot-band-on-engadget/</loc>
+    <loc>/blog/robot-band-on-engadget/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/geek/</loc>
-    <lastmod>2011-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/categories/robot/</loc>
+    <loc>/tags/geek/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/robot/</loc>
+    <loc>/tags/robot/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/tech/</loc>
+    <loc>/categories/robot/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/tech/</loc>
+    <loc>/tags/tech/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/07/things-i-like-about-instagram-hipstamatic/</loc>
+    <loc>/categories/tech/</loc>
+    <lastmod>2011-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/things-like-about-instagram-hipstamatic/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/application/</loc>
+    <loc>/categories/application/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/hipstamatic/</loc>
+    <loc>/tags/hipstamatic/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/instagram/</loc>
+    <loc>/tags/instagram/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/mobile/</loc>
+    <loc>/tags/mobile/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/photography/</loc>
+    <loc>/categories/photography/</loc>
     <lastmod>2011-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/07/using-devexpress-winforms-treelist-control/</loc>
+    <loc>/blog/using-devexpress-winforms-treelist-control/</loc>
     <lastmod>2011-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/treelist/</loc>
+    <loc>/tags/treelist/</loc>
     <lastmod>2011-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/05/developer-developer-developer-scotland-2011/</loc>
+    <loc>/blog/developer-developer-developer-scotland-2011/</loc>
     <lastmod>2011-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2011/04/setting-up-mercurial-dev-shop/</loc>
+    <loc>/blog/setting-up-mercurial-dev-shop/</loc>
     <lastmod>2011-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/mercurial/</loc>
-    <lastmod>2011-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rubot99.github.io/categories/source-control/</loc>
+    <loc>/tags/mercurial/</loc>
     <lastmod>2011-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/source-control/</loc>
+    <loc>/tags/source-control/</loc>
     <lastmod>2011-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2010/05/the-quest-for-a-personal-backup-strategy-part-3/</loc>
+    <loc>/categories/source-control/</loc>
+    <lastmod>2011-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/quest-personal-backup-strategy-part3/</loc>
     <lastmod>2010-05-04T20:00:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/categories/backup/</loc>
+    <loc>/tags/backup/</loc>
     <lastmod>2010-05-04T20:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/backup/</loc>
+    <loc>/categories/backup/</loc>
     <lastmod>2010-05-04T20:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/tags/cloud/</loc>
+    <loc>/tags/cloud/</loc>
     <lastmod>2010-05-04T20:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-2/</loc>
+    <loc>/blog/quest-personal-backup-strategy-part2/</loc>
     <lastmod>2010-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/2010/03/quest-personal-backup-strategy-part-1/</loc>
+    <loc>/blog/quest-personal-backup-strategy-part1/</loc>
     <lastmod>2010-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rubot99.github.io/archives/</loc>
-    <priority>0</priority>
+    <loc>/contact/</loc>
   </url>
   
 </urlset>

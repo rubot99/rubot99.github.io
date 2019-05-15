@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>self-development on rubot</title>
-    <link>https://rubot99.github.io/tags/self-development/</link>
+    <link>/tags/self-development/</link>
     <description>Recent content in self-development on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Sep 2017 20:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/self-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/self-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Review - Soft Skills - The software developer&#39;s life manual</title>
-      <link>https://rubot99.github.io/2017/09/review-soft-skills-the-software-developers-life-manual/</link>
+      <link>/blog/review-soft-skills/</link>
       <pubDate>Fri, 15 Sep 2017 20:30:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2017/09/review-soft-skills-the-software-developers-life-manual/</guid>
+      <guid>/blog/review-soft-skills/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&amp;lsquo;Soft Skills: The Software Developer&amp;rsquo;s Life Manual&amp;rsquo;&lt;/strong&gt; is a book written by John Somnez, I first heard of John on the Dot Net Rocks podcast. After that I started to following his fitness podcast Get UP and Code. Nowadays I mainly follow him on his YouTube channel ‘Simple Programmer’.&lt;/p&gt;</description>
     </item>
     

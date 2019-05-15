@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spin editor on rubot</title>
-    <link>https://rubot99.github.io/tags/spin-editor/</link>
+    <link>/tags/spin-editor/</link>
     <description>Recent content in spin editor on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Aug 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/tags/spin-editor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/spin-editor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using DevExpress ASP.Net Spin Editor Control</title>
-      <link>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</link>
+      <link>/blog/using-devexpress-spin-editor-control/</link>
       <pubDate>Tue, 02 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/08/using-devexpress-asp.net-spin-editor-control/</guid>
+      <guid>/blog/using-devexpress-spin-editor-control/</guid>
       <description>&lt;p&gt;The DevExpress ASP.Net spin editor control is one of those simple but extremely useful controls. I tend to use this control a lot in my projects. It basically is a text input field which only allows the user to enter numeric data.
 I know on the face of it does not seem revolutionary, but a few things I like about the control are:&lt;/p&gt;</description>
     </item>

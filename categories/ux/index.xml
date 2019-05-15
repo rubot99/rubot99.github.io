@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ux on rubot</title>
-    <link>https://rubot99.github.io/categories/ux/</link>
+    <link>/categories/ux/</link>
     <description>Recent content in ux on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 May 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/categories/ux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/ux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is Intuitive User Interface Design Actually Subjective</title>
-      <link>https://rubot99.github.io/2012/05/is-intuitive-user-interface-design-actually-subjective/</link>
+      <link>/blog/is-intuitive-user-interface-design-actually-subjective/</link>
       <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2012/05/is-intuitive-user-interface-design-actually-subjective/</guid>
+      <guid>/blog/is-intuitive-user-interface-design-actually-subjective/</guid>
       <description>&lt;p&gt;I have been using Microsoft Essentials as my antivirus program ever since it was released. I really like the clean and simple user interface and the small memory footprint. I also recommend it to everyone. However recently I noticed that I hadn’t run a system scan in a while and the Microsoft Essential icon had turned yellow.&lt;/p&gt;</description>
     </item>
     

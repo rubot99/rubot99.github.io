@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>application on rubot</title>
-    <link>https://rubot99.github.io/categories/application/</link>
+    <link>/categories/application/</link>
     <description>Recent content in application on rubot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Jul 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rubot99.github.io/categories/application/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/application/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Things I Like About Instagram Hipstamatic</title>
-      <link>https://rubot99.github.io/2011/07/things-i-like-about-instagram-hipstamatic/</link>
+      <link>/blog/things-like-about-instagram-hipstamatic/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://rubot99.github.io/2011/07/things-i-like-about-instagram-hipstamatic/</guid>
+      <guid>/blog/things-like-about-instagram-hipstamatic/</guid>
       <description>&lt;p&gt;In the last couple of months I have been getting into iPhone photography or as it is more popularly known as iPhoneography.
 I started out by using Instagram and have now graduated to using both Instagram and Hipstamatic.
 At first glance I thought these apps were similar and favoured Instagram because of its ease of use.&lt;/p&gt;</description>
